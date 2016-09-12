@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality" Type="String">DelphiDotNet.Personality</Option>
+			<Option Name="ProjectType" Type="String"></Option>
+			<Option Name="Version" Type="String">2.0</Option>
+			<Option Name="GUID" Type="String">{E1EEA411-0F8F-4E7D-9D71-789204E588DF}</Option>
+		</Option>
+	</PersonalityInfo>
+	<DelphiDotNet.Personality>
+		<Source>
+			<Source Name="MainSource" Type="String">TMSD2006NET.dpk</Source>
+		</Source>
+		<FileVersion>
+			<FileVersion Name="Version" Type="String">7.0</FileVersion>
+		</FileVersion>
+		<Compiler>
+			<Compiler Name="A" Type="Integer">0</Compiler>
+			<Compiler Name="B" Type="Integer">0</Compiler>
+			<Compiler Name="C" Type="Integer">1</Compiler>
+			<Compiler Name="D" Type="Integer">1</Compiler>
+			<Compiler Name="E" Type="Integer">0</Compiler>
+			<Compiler Name="F" Type="Integer">0</Compiler>
+			<Compiler Name="G" Type="Integer">1</Compiler>
+			<Compiler Name="H" Type="Integer">1</Compiler>
+			<Compiler Name="I" Type="Integer">1</Compiler>
+			<Compiler Name="J" Type="Integer">0</Compiler>
+			<Compiler Name="K" Type="Integer">0</Compiler>
+			<Compiler Name="L" Type="Integer">1</Compiler>
+			<Compiler Name="M" Type="Integer">0</Compiler>
+			<Compiler Name="N" Type="Integer">1</Compiler>
+			<Compiler Name="O" Type="Integer">1</Compiler>
+			<Compiler Name="P" Type="Integer">1</Compiler>
+			<Compiler Name="Q" Type="Integer">0</Compiler>
+			<Compiler Name="R" Type="Integer">0</Compiler>
+			<Compiler Name="S" Type="Integer">0</Compiler>
+			<Compiler Name="T" Type="Integer">0</Compiler>
+			<Compiler Name="U" Type="Integer">0</Compiler>
+			<Compiler Name="V" Type="Integer">1</Compiler>
+			<Compiler Name="W" Type="Integer">0</Compiler>
+			<Compiler Name="X" Type="Integer">1</Compiler>
+			<Compiler Name="Y" Type="Integer">1</Compiler>
+			<Compiler Name="Z" Type="Integer">1</Compiler>
+			<Compiler Name="ShowHints" Type="Boolean">True</Compiler>
+			<Compiler Name="ShowWarnings" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitAliases" Type="String">WinTypes=Borland.Vcl.Windows;WinProcs=Borland.Vcl.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;</Compiler>
+			<Compiler Name="NamespacePrefix" Type="String"></Compiler>
+			<Compiler Name="GenerateDocumentation" Type="Boolean">False</Compiler>
+			<Compiler Name="DefaultNamespace" Type="String"></Compiler>
+			<Compiler Name="SymbolDeprecated" Type="Boolean">False</Compiler>
+			<Compiler Name="SymbolLibrary" Type="Boolean">True</Compiler>
+			<Compiler Name="SymbolPlatform" Type="Boolean">False</Compiler>
+			<Compiler Name="SymbolExperimental" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitLibrary" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitPlatform" Type="Boolean">False</Compiler>
+			<Compiler Name="UnitDeprecated" Type="Boolean">False</Compiler>
+			<Compiler Name="UnitExperimental" Type="Boolean">True</Compiler>
+			<Compiler Name="HResultCompat" Type="Boolean">True</Compiler>
+			<Compiler Name="HidingMember" Type="Boolean">True</Compiler>
+			<Compiler Name="HiddenVirtual" Type="Boolean">True</Compiler>
+			<Compiler Name="Garbage" Type="Boolean">True</Compiler>
+			<Compiler Name="BoundsError" Type="Boolean">True</Compiler>
+			<Compiler Name="ZeroNilCompat" Type="Boolean">True</Compiler>
+			<Compiler Name="StringConstTruncated" Type="Boolean">True</Compiler>
+			<Compiler Name="ForLoopVarVarPar" Type="Boolean">True</Compiler>
+			<Compiler Name="TypedConstVarPar" Type="Boolean">True</Compiler>
+			<Compiler Name="AsgToTypedConst" Type="Boolean">True</Compiler>
+			<Compiler Name="CaseLabelRange" Type="Boolean">True</Compiler>
+			<Compiler Name="ForVariable" Type="Boolean">True</Compiler>
+			<Compiler Name="ConstructingAbstract" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparisonFalse" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparisonTrue" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparingSignedUnsigned" Type="Boolean">True</Compiler>
+			<Compiler Name="CombiningSignedUnsigned" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsupportedConstruct" Type="Boolean">True</Compiler>
+			<Compiler Name="FileOpen" Type="Boolean">True</Compiler>
+			<Compiler Name="FileOpenUnitSrc" Type="Boolean">True</Compiler>
+			<Compiler Name="BadGlobalSymbol" Type="Boolean">True</Compiler>
+			<Compiler Name="DuplicateConstructorDestructor" Type="Boolean">True</Compiler>
+			<Compiler Name="InvalidDirective" Type="Boolean">True</Compiler>
+			<Compiler Name="PackageNoLink" Type="Boolean">True</Compiler>
+			<Compiler Name="PackageThreadVar" Type="Boolean">True</Compiler>
+			<Compiler Name="ImplicitImport" Type="Boolean">True</Compiler>
+			<Compiler Name="HPPEMITIgnored" Type="Boolean">True</Compiler>
+			<Compiler Name="NoRetVal" Type="Boolean">True</Compiler>
+			<Compiler Name="UseBeforeDef" Type="Boolean">True</Compiler>
+			<Compiler Name="ForLoopVarUndef" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitNameMismatch" Type="Boolean">True</Compiler>
+			<Compiler Name="NoCFGFileFound" Type="Boolean">True</Compiler>
+			<Compiler Name="MessageDirective" Type="Boolean">True</Compiler>
+			<Compiler Name="ImplicitVariants" Type="Boolean">True</Compiler>
+			<Compiler Name="UnicodeToLocale" Type="Boolean">True</Compiler>
+			<Compiler Name="LocaleToUnicode" Type="Boolean">True</Compiler>
+			<Compiler Name="ImagebaseMultiple" Type="Boolean">True</Compiler>
+			<Compiler Name="SuspiciousTypecast" Type="Boolean">True</Compiler>
+			<Compiler Name="PrivatePropAccessor" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeType" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeCode" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeCast" Type="Boolean">True</Compiler>
+			<Compiler Name="OptionTruncated" Type="Boolean">True</Compiler>
+			<Compiler Name="WideCharReduced" Type="Boolean">True</Compiler>
+			<Compiler Name="DuplicatesIgnored" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitInitSeq">True</Compiler>
+			<Compiler Name="LocalPInvoke">True</Compiler>
+			<Compiler Name="CodePage"></Compiler>
+		</Compiler>
+		<Linker>
+			<Linker Name="MapFile" Type="Integer">0</Linker>
+			<Linker Name="OutputObjs" Type="Integer">0</Linker>
+			<Linker Name="ConsoleApp" Type="Integer">1</Linker>
+			<Linker Name="DebugInfo" Type="Boolean">True</Linker>
+			<Linker Name="RemoteSymbols" Type="Boolean">False</Linker>
+			<Linker Name="GenerateDRC" Type="Boolean">False</Linker>
+			<Linker Name="MinStackSize" Type="Integer">4096</Linker>
+			<Linker Name="MaxStackSize" Type="Integer">1048576</Linker>
+			<Linker Name="ImageBase" Type="Integer">4194304</Linker>
+			<Linker Name="ExeDescription" Type="String"></Linker>
+			<Linker Name="GenerateHpps">False</Linker>
+		</Linker>
+		<Directories>
+			<Directories Name="OutputDir" Type="String"></Directories>
+			<Directories Name="UnitOutputDir" Type="String"></Directories>
+			<Directories Name="PackageDLLOutputDir" Type="String"></Directories>
+			<Directories Name="PackageDCPOutputDir" Type="String"></Directories>
+			<Directories Name="SearchPath" Type="String">c:\program files\common files\borland shared\bds\shared assemblies\2.0;c:\program files\common files\borland shared\bds\shared assemblies\4.0</Directories>
+			<Directories Name="Packages" Type="String">Borland.VclX;Borland.VclAdoDb;Borland.VclBdeRtl;Borland.VclDbCtrls;Borland.Vcl;Borland.Delphi</Directories>
+			<Directories Name="Conditionals" Type="String"></Directories>
+			<Directories Name="DebugSourceDirs" Type="String"></Directories>
+			<Directories Name="UsePackages" Type="Boolean">False</Directories>
+		</Directories>
+		<Parameters>
+			<Parameters Name="RunParams" Type="String"></Parameters>
+			<Parameters Name="HostApplication" Type="String"></Parameters>
+			<Parameters Name="Launcher" Type="String"></Parameters>
+			<Parameters Name="UseLauncher" Type="Boolean">False</Parameters>
+			<Parameters Name="DebugCWD" Type="String"></Parameters>
+			<Parameters Name="RemoteHost" Type="String"></Parameters>
+			<Parameters Name="RemotePath" Type="String"></Parameters>
+			<Parameters Name="RemoteLauncher" Type="String"></Parameters>
+			<Parameters Name="RemoteCWD" Type="String"></Parameters>
+			<Parameters Name="RemoteDebug" Type="Boolean">False</Parameters>
+			<Parameters Name="Debug Symbols Search Path"></Parameters>
+			<Parameters Name="LoadAllSymbols">True</Parameters>
+			<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+		</Parameters>
+		<Language>
+			<Language Name="ActiveLang" Type="String"></Language>
+			<Language Name="ProjectLang" Type="String">$00000000</Language>
+			<Language Name="RootDir" Type="String"></Language>
+		</Language>
+		<VersionInfo>
+			<VersionInfo Name="IncludeVerInfo" Type="Boolean">True</VersionInfo>
+			<VersionInfo Name="AutoIncBuild" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="MajorVer" Type="Integer">1</VersionInfo>
+			<VersionInfo Name="MinorVer" Type="Integer">0</VersionInfo>
+			<VersionInfo Name="Release" Type="Integer">0</VersionInfo>
+			<VersionInfo Name="Build" Type="Integer">0</VersionInfo>
+			<VersionInfo Name="Debug" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="PreRelease" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Special" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Private" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="DLL" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Locale" Type="Integer">2067</VersionInfo>
+			<VersionInfo Name="CodePage" Type="Integer">1252</VersionInfo>
+		</VersionInfo>
+		<VersionInfoKeys>
+			<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+			<VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+			<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+			<VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+			<VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+			<VersionInfoKeys Name="Comments"></VersionInfoKeys>
+		</VersionInfoKeys>  
+    
+    
+    <FileList>
+      <File FileName="AdvMemoReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="AdvNavBarReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="planreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="dbplanreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="PlannerCalReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="advpnlreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="collireg.dcr" ContainerId="DcrTool"/>
+      <File FileName="lureg.dcr" ContainerId="DcrTool"/>
+      <File FileName="acreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="aereg.dcr" ContainerId="DcrTool"/>
+      <File FileName="dbaereg.dcr" ContainerId="DcrTool"/>
+      <File FileName="DBAdvEdBtnReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="dbasreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="asreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="advedbr.dcr" ContainerId="DcrTool"/>
+      <File FileName="paramlabreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="paramlstreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="paramtreeviewreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="paramchklreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="AdvFileNameEdit.dcr" ContainerId="DcrTool"/>
+      <File FileName="AdvAlertWindowReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="advluedr.dcr" ContainerId="DcrTool"/>
+      <File FileName="AdvMoneyEditReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="AdvPageControlreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="AdvTabSetReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="AdvProgressBarReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="advqryr.dcr" ContainerId="DcrTool"/>
+      <File FileName="atbreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="btnlireg.dcr" ContainerId="DcrTool"/>
+      <File FileName="calpreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="calcreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="imgpickr.dcr" ContainerId="DcrTool"/>
+      <File FileName="clistedr.dcr" ContainerId="DcrTool"/>
+      <File FileName="MoneyEdr.dcr" ContainerId="DcrTool"/>
+      <File FileName="colcoreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="datelbl.dcr" ContainerId="DcrTool"/>
+      <File FileName="dbadvler.dcr" ContainerId="DcrTool"/>
+      <File FileName="dbhtmlar.dcr" ContainerId="DcrTool"/>
+      <File FileName="DBHTMLBtnsReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="dblucmbr.dcr" ContainerId="DcrTool"/>
+      <File FileName="dbmereg.dcr" ContainerId="DcrTool"/>
+      <File FileName="DBPlannerCalReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmlareg.dcr" ContainerId="DcrTool"/>
+      <File FileName="edtbreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="edtlstreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="EllipsLblReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmhireg.dcr" ContainerId="DcrTool"/>
+      <File FileName="frmsreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="fsreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="GradientLblReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="Hilireg.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmbureg.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmcoreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmldlgr.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmlchklireg.dcr" ContainerId="DcrTool"/>
+      <File FileName="HTMLCreditReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmstreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmlireg.dcr" ContainerId="DcrTool"/>
+      <File FileName="HTMLPopupReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="HTMLTLREG.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmltvr.dcr" ContainerId="DcrTool"/>
+      <File FileName="htmstbr.dcr" ContainerId="DcrTool"/>
+      <File FileName="INIInspectorBarReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="lfreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="InspectorBarReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="llreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="pdlgreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="PictureContainerReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="SHADER.dcr" ContainerId="DcrTool"/>
+      <File FileName="Tilebmp.dcr" ContainerId="DcrTool"/>
+      <File FileName="slstreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="vCalReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="tlreg.dcr" ContainerId="DcrTool"/>
+      <File FileName="ToolPanelsReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="TodoListReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="DBTodoListReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="TMSGraphicsReg.dcr" ContainerId="DcrTool"/>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.Delphi.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Delphi" AssemblyName="Borland.Delphi" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.Vcl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Vcl" AssemblyName="Borland.Vcl" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclDbCtrls.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclDbCtrls" AssemblyName="Borland.VclDbCtrls" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclBdeRtl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclBdeRtl" AssemblyName="Borland.VclBdeRtl" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclAdoDb.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclAdoDb" AssemblyName="Borland.VclAdoDb" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclX.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclX" AssemblyName="Borland.VclX" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="asgreg.pas" ContainerId="PascalCompiler" ModuleName="asgreg"/>
+      <File FileName="AdvGrid.pas" ContainerId="PascalCompiler" ModuleName="AdvGrid"/>
+      <File FileName="Advobj.pas" ContainerId="PascalCompiler" ModuleName="Advobj"/>
+      <File FileName="advmbs.pas" ContainerId="PascalCompiler" ModuleName="advmbs"/>
+      <File FileName="advmcshs.pas" ContainerId="PascalCompiler" ModuleName="advmcshs"/>
+      <File FileName="Advmcss.pas" ContainerId="PascalCompiler" ModuleName="Advmcss"/>
+      <File FileName="AdvMemo.pas" ContainerId="PascalCompiler" ModuleName="AdvMemo"/>
+      <File FileName="AdvMemoReg.pas" ContainerId="PascalCompiler" ModuleName="AdvMemoReg"/>
+      <File FileName="advmes.pas" ContainerId="PascalCompiler" ModuleName="advmes"/>
+      <File FileName="advmpls.pas" ContainerId="PascalCompiler" ModuleName="advmpls"/>
+      <File FileName="advmps.pas" ContainerId="PascalCompiler" ModuleName="advmps"/>
+      <File FileName="advmpys.pas" ContainerId="PascalCompiler" ModuleName="advmpys"/>
+      <File FileName="AdvmSQLs.pas" ContainerId="PascalCompiler" ModuleName="AdvmSQLs"/>
+      <File FileName="advmws.pas" ContainerId="PascalCompiler" ModuleName="advmws"/>
+      <File FileName="AdvNavBar.pas" ContainerId="PascalCompiler" ModuleName="AdvNavBar"/>
+      <File FileName="AdvNavBarReg.pas" ContainerId="PascalCompiler" ModuleName="AdvNavBarReg"/>
+      <File FileName="asgcombo.pas" ContainerId="PascalCompiler" ModuleName="asgcombo"/>
+      <File FileName="asgspin.pas" ContainerId="PascalCompiler" ModuleName="asgspin"/>
+      <File FileName="asgcheck.pas" ContainerId="PascalCompiler" ModuleName="asgcheck"/>
+      <File FileName="DBAdvMemo.pas" ContainerId="PascalCompiler" ModuleName="DBAdvMemo"/>
+      <File FileName="AdvCodeList.pas" ContainerId="PascalCompiler" ModuleName="AdvCodeList"/>
+      <File FileName="AdvCodeHint.pas" ContainerId="PascalCompiler" ModuleName="AdvCodeHint"/>
+      <File FileName="AdvCodeListLib.pas" ContainerId="PascalCompiler" ModuleName="AdvCodeListLib"/>
+      <File FileName="AdvGridWorkbook.pas" ContainerId="PascalCompiler" ModuleName="AdvGridWorkbook"/>
+      <File FileName="frmctrllink.pas" ContainerId="PascalCompiler" ModuleName="frmctrllink"/>
+      <File FileName="AsgHTML.pas" ContainerId="PascalCompiler" ModuleName="AsgHTML"/>
+      <File FileName="asgprint.pas" ContainerId="PascalCompiler" ModuleName="asgprint"/>
+      <File FileName="advspin.pas" ContainerId="PascalCompiler" ModuleName="advspin"/>
+      <File FileName="asgprev.pas" ContainerId="PascalCompiler" ModuleName="asgprev"/>
+      <File FileName="AsgFindDialog.pas" ContainerId="PascalCompiler" ModuleName="AsgFindDialog"/>
+      <File FileName="AsgReplaceDialog.pas" ContainerId="PascalCompiler" ModuleName="AsgReplaceDialog"/>
+      <File FileName="AsgMemo.pas" ContainerId="PascalCompiler" ModuleName="AsgMemo"/>
+      <File FileName="asgdd.pas" ContainerId="PascalCompiler" ModuleName="asgdd"/>
+      <File FileName="BaseGrid.pas" ContainerId="PascalCompiler" ModuleName="BaseGrid"/>
+      <File FileName="AsgHTMLE.pas" ContainerId="PascalCompiler" ModuleName="AsgHTMLE"/>
+      <File FileName="PictureContainer.pas" ContainerId="PascalCompiler" ModuleName="PictureContainer"/>
+      <File FileName="asgedit.pas" ContainerId="PascalCompiler" ModuleName="asgedit"/>
+      <File FileName="advutil.pas" ContainerId="PascalCompiler" ModuleName="advutil"/>
+      <File FileName="planreg.pas" ContainerId="PascalCompiler" ModuleName="planreg"/>
+      <File FileName="dbplanreg.pas" ContainerId="PascalCompiler" ModuleName="dbplanreg"/>
+      <File FileName="Planner.pas" ContainerId="PascalCompiler" ModuleName="Planner"/>
+      <File FileName="PlanUtil.pas" ContainerId="PascalCompiler" ModuleName="PlanUtil"/>
+      <File FileName="PlannerWaitList.pas" ContainerId="PascalCompiler" ModuleName="PlannerWaitList"/>
+      <File FileName="plannermonthview.pas" ContainerId="PascalCompiler" ModuleName="plannermonthview"/>
+      <File FileName="plannermonthviewreg.pas" ContainerId="PascalCompiler" ModuleName="plannermonthviewreg"/>
+      <File FileName="dbplannermonthview.pas" ContainerId="PascalCompiler" ModuleName="dbplannermonthview"/>
+      <File FileName="DBPlanner.pas" ContainerId="PascalCompiler" ModuleName="DBPlanner"/>
+      <File FileName="DBPlannerMonthViewReg.pas" ContainerId="PascalCompiler" ModuleName="DBPlannerMonthViewReg"/>
+      <File FileName="PlanPeriodEdit.pas" ContainerId="PascalCompiler" ModuleName="PlanPeriodEdit"/>
+      <File FileName="PlanDraw.pas" ContainerId="PascalCompiler" ModuleName="PlanDraw"/>
+      <File FileName="PlanSimpleEdit.pas" ContainerId="PascalCompiler" ModuleName="PlanSimpleEdit"/>
+      <File FileName="PlanItemEdit.pas" ContainerId="PascalCompiler" ModuleName="PlanItemEdit"/>
+      <File FileName="PlanCombo.pas" ContainerId="PascalCompiler" ModuleName="PlanCombo"/>
+      <File FileName="PlanHTML.pas" ContainerId="PascalCompiler" ModuleName="PlanHTML"/>
+      <File FileName="plancheck.pas" ContainerId="PascalCompiler" ModuleName="plancheck"/>
+      <File FileName="planobj.pas" ContainerId="PascalCompiler" ModuleName="planobj"/>
+      <File FileName="PlannerCalReg.pas" ContainerId="PascalCompiler" ModuleName="PlannerCalReg"/>
+      <File FileName="PlannerMaskDatePicker.pas" ContainerId="PascalCompiler" ModuleName="PlannerMaskDatePicker"/>
+      <File FileName="AdvEdBtn.pas" ContainerId="PascalCompiler" ModuleName="AdvEdBtn"/>
+      <File FileName="AdvEdit.pas" ContainerId="PascalCompiler" ModuleName="AdvEdit"/>
+      <File FileName="AdvMEdBtn.pas" ContainerId="PascalCompiler" ModuleName="AdvMEdBtn"/>
+      <File FileName="PlannerDatePicker.pas" ContainerId="PascalCompiler" ModuleName="PlannerDatePicker"/>
+      <File FileName="adveddd.pas" ContainerId="PascalCompiler" ModuleName="adveddd"/>
+      <File FileName="PlannerCal.pas" ContainerId="PascalCompiler" ModuleName="PlannerCal"/>
+      <File FileName="advpnlreg.pas" ContainerId="PascalCompiler" ModuleName="advpnlreg"/>
+      <File FileName="advpanel.pas" ContainerId="PascalCompiler" ModuleName="advpanel"/>
+      <File FileName="collistb.pas" ContainerId="PascalCompiler" ModuleName="collistb"/>
+      <File FileName="collireg.pas" ContainerId="PascalCompiler" ModuleName="collireg"/>
+      <File FileName="lureg.pas" ContainerId="PascalCompiler" ModuleName="lureg"/>
+      <File FileName="Lucombo.pas" ContainerId="PascalCompiler" ModuleName="Lucombo"/>
+      <File FileName="acreg.pas" ContainerId="PascalCompiler" ModuleName="acreg"/>
+      <File FileName="AdvCombo.pas" ContainerId="PascalCompiler" ModuleName="AdvCombo"/>
+      <File FileName="aereg.pas" ContainerId="PascalCompiler" ModuleName="aereg"/>
+      <File FileName="dbaereg.pas" ContainerId="PascalCompiler" ModuleName="dbaereg"/>
+      <File FileName="DBAdvEd.pas" ContainerId="PascalCompiler" ModuleName="DBAdvEd"/>
+      <File FileName="DBAdvEdBtn.pas" ContainerId="PascalCompiler" ModuleName="DBAdvEdBtn"/>
+      <File FileName="DBAdvEdBtnReg.pas" ContainerId="PascalCompiler" ModuleName="DBAdvEdBtnReg"/>
+      <File FileName="DBAdvSp.pas" ContainerId="PascalCompiler" ModuleName="DBAdvSp"/>
+      <File FileName="dbasreg.pas" ContainerId="PascalCompiler" ModuleName="dbasreg"/>
+      <File FileName="asreg.pas" ContainerId="PascalCompiler" ModuleName="asreg"/>
+      <File FileName="advedbr.pas" ContainerId="PascalCompiler" ModuleName="advedbr"/>
+      <File FileName="asgcreg.pas" ContainerId="PascalCompiler" ModuleName="asgcreg"/>
+      <File FileName="AdvCGrid.pas" ContainerId="PascalCompiler" ModuleName="AdvCGrid"/>
+      <File FileName="paramlabel.pas" ContainerId="PascalCompiler" ModuleName="paramlabel"/>
+      <File FileName="paramlabreg.pas" ContainerId="PascalCompiler" ModuleName="paramlabreg"/>
+      <File FileName="paramlistbox.pas" ContainerId="PascalCompiler" ModuleName="paramlistbox"/>
+      <File FileName="paramlstreg.pas" ContainerId="PascalCompiler" ModuleName="paramlstreg"/>
+      <File FileName="paramtreeview.pas" ContainerId="PascalCompiler" ModuleName="paramtreeview"/>
+      <File FileName="paramtreeviewreg.pas" ContainerId="PascalCompiler" ModuleName="paramtreeviewreg"/>
+      <File FileName="paramchklist.pas" ContainerId="PascalCompiler" ModuleName="paramchklist"/>
+      <File FileName="paramchklreg.pas" ContainerId="PascalCompiler" ModuleName="paramchklreg"/>
+      <File FileName="ParHTML.pas" ContainerId="PascalCompiler" ModuleName="ParHTML"/>
+      <File FileName="Spin.pas" ContainerId="PascalCompiler" ModuleName="Spin"/>
+      <File FileName="AdvFileNameEdit.pas" ContainerId="PascalCompiler" ModuleName="AdvFileNameEdit"/>
+      <File FileName="AdvAlertWindowReg.pas" ContainerId="PascalCompiler" ModuleName="AdvAlertWindowReg"/>
+      <File FileName="AdvAlertWindow.pas" ContainerId="PascalCompiler" ModuleName="AdvAlertWindow"/>
+      <File FileName="AdvGradient.pas" ContainerId="PascalCompiler" ModuleName="AdvGradient"/>
+      <File FileName="advluedr.pas" ContainerId="PascalCompiler" ModuleName="advluedr"/>
+      <File FileName="advlued.pas" ContainerId="PascalCompiler" ModuleName="advlued"/>
+      <File FileName="AdvMoneyEditReg.pas" ContainerId="PascalCompiler" ModuleName="AdvMoneyEditReg"/>
+      <File FileName="AdvMoneyEdit.pas" ContainerId="PascalCompiler" ModuleName="AdvMoneyEdit"/>
+      <File FileName="AdvPageControlreg.pas" ContainerId="PascalCompiler" ModuleName="AdvPageControlreg"/>
+      <File FileName="AdvPageControl.pas" ContainerId="PascalCompiler" ModuleName="AdvPageControl"/>
+      <File FileName="AdvTabSetReg.pas" ContainerId="PascalCompiler" ModuleName="AdvTabSetReg"/>
+      <File FileName="AdvTabSet.pas" ContainerId="PascalCompiler" ModuleName="AdvTabSet"/>
+      <File FileName="AdvProgressBarReg.pas" ContainerId="PascalCompiler" ModuleName="AdvProgressBarReg"/>
+      <File FileName="AdvProgr.pas" ContainerId="PascalCompiler" ModuleName="AdvProgr"/>
+      <File FileName="AdvProgressBar.pas" ContainerId="PascalCompiler" ModuleName="AdvProgressBar"/>
+      <File FileName="advqryr.pas" ContainerId="PascalCompiler" ModuleName="advqryr"/>
+      <File FileName="AdvQueryDialog.pas" ContainerId="PascalCompiler" ModuleName="AdvQueryDialog"/>
+      <File FileName="advtoolbtn.pas" ContainerId="PascalCompiler" ModuleName="advtoolbtn"/>
+      <File FileName="AdvTreeComboBoxReg.pas" ContainerId="PascalCompiler" ModuleName="AdvTreeComboBoxReg"/>
+      <File FileName="AdvTreeComboBox.pas" ContainerId="PascalCompiler" ModuleName="AdvTreeComboBox"/>
+      <File FileName="apreg.pas" ContainerId="PascalCompiler" ModuleName="apreg"/>
+      <File FileName="AsgLinks.pas" ContainerId="PascalCompiler" ModuleName="AsgLinks"/>
+      <File FileName="atbreg.pas" ContainerId="PascalCompiler" ModuleName="atbreg"/>
+      <File FileName="BtnListB.pas" ContainerId="PascalCompiler" ModuleName="BtnListB"/>
+      <File FileName="btnlireg.pas" ContainerId="PascalCompiler" ModuleName="btnlireg"/>
+      <File FileName="calpreg.pas" ContainerId="PascalCompiler" ModuleName="calpreg"/>
+      <File FileName="CalComp.pas" ContainerId="PascalCompiler" ModuleName="CalComp"/>
+      <File FileName="calcreg.pas" ContainerId="PascalCompiler" ModuleName="calcreg"/>
+      <File FileName="CalPanel.pas" ContainerId="PascalCompiler" ModuleName="CalPanel"/>
+      <File FileName="Moneycal.pas" ContainerId="PascalCompiler" ModuleName="Moneycal"/>
+      <File FileName="imgpickr.pas" ContainerId="PascalCompiler" ModuleName="imgpickr"/>
+      <File FileName="ImagePicker.pas" ContainerId="PascalCompiler" ModuleName="ImagePicker"/>
+      <File FileName="ColorCombo.pas" ContainerId="PascalCompiler" ModuleName="ColorCombo"/>
+      <File FileName="clistedr.pas" ContainerId="PascalCompiler" ModuleName="clistedr"/>
+      <File FileName="Clisted.pas" ContainerId="PascalCompiler" ModuleName="Clisted"/>
+      <File FileName="MoneyEdr.pas" ContainerId="PascalCompiler" ModuleName="MoneyEdr"/>
+      <File FileName="moneyedit.pas" ContainerId="PascalCompiler" ModuleName="moneyedit"/>
+      <File FileName="colcoreg.pas" ContainerId="PascalCompiler" ModuleName="colcoreg"/>
+      <File FileName="colcombo.pas" ContainerId="PascalCompiler" ModuleName="colcombo"/>
+      <File FileName="datelbl.pas" ContainerId="PascalCompiler" ModuleName="datelbl"/>
+      <File FileName="dbadvler.pas" ContainerId="PascalCompiler" ModuleName="dbadvler"/>
+      <File FileName="dbadvle.pas" ContainerId="PascalCompiler" ModuleName="dbadvle"/>
+      <File FileName="dbmnyed.pas" ContainerId="PascalCompiler" ModuleName="dbmnyed"/>
+      <File FileName="dbhtmlab.pas" ContainerId="PascalCompiler" ModuleName="dbhtmlab"/>
+      <File FileName="dbhtmlar.pas" ContainerId="PascalCompiler" ModuleName="dbhtmlar"/>
+      <File FileName="DBHTMLBtns.pas" ContainerId="PascalCompiler" ModuleName="DBHTMLBtns"/>
+      <File FileName="DBHTMLBtnsReg.pas" ContainerId="PascalCompiler" ModuleName="DBHTMLBtnsReg"/>
+      <File FileName="dblucmbr.pas" ContainerId="PascalCompiler" ModuleName="dblucmbr"/>
+      <File FileName="dblucomb.pas" ContainerId="PascalCompiler" ModuleName="dblucomb"/>
+      <File FileName="dbmereg.pas" ContainerId="PascalCompiler" ModuleName="dbmereg"/>
+      <File FileName="htmlbtns.pas" ContainerId="PascalCompiler" ModuleName="htmlbtns"/>
+      <File FileName="DBPlannerDatePicker.pas" ContainerId="PascalCompiler" ModuleName="DBPlannerDatePicker"/>
+      <File FileName="DBPlannerCal.pas" ContainerId="PascalCompiler" ModuleName="DBPlannerCal"/>
+      <File FileName="DBPlannerCalReg.pas" ContainerId="PascalCompiler" ModuleName="DBPlannerCalReg"/>
+      <File FileName="htmlareg.pas" ContainerId="PascalCompiler" ModuleName="htmlareg"/>
+      <File FileName="htmlabel.pas" ContainerId="PascalCompiler" ModuleName="htmlabel"/>
+      <File FileName="flctrlr.pas" ContainerId="PascalCompiler" ModuleName="flctrlr"/>
+      <File FileName="EditBtn.pas" ContainerId="PascalCompiler" ModuleName="EditBtn"/>
+      <File FileName="editlist.pas" ContainerId="PascalCompiler" ModuleName="editlist"/>
+      <File FileName="edtbreg.pas" ContainerId="PascalCompiler" ModuleName="edtbreg"/>
+      <File FileName="edtlstreg.pas" ContainerId="PascalCompiler" ModuleName="edtlstreg"/>
+      <File FileName="EllipsLabel.pas" ContainerId="PascalCompiler" ModuleName="EllipsLabel"/>
+      <File FileName="EllipsLblReg.pas" ContainerId="PascalCompiler" ModuleName="EllipsLblReg"/>
+      <File FileName="FlCtrlEx.pas" ContainerId="PascalCompiler" ModuleName="FlCtrlEx"/>
+      <File FileName="FormSize.pas" ContainerId="PascalCompiler" ModuleName="FormSize"/>
+      <File FileName="htmhireg.pas" ContainerId="PascalCompiler" ModuleName="htmhireg"/>
+      <File FileName="frmsreg.pas" ContainerId="PascalCompiler" ModuleName="frmsreg"/>
+      <File FileName="fsreg.pas" ContainerId="PascalCompiler" ModuleName="fsreg"/>
+      <File FileName="GradientLabel.pas" ContainerId="PascalCompiler" ModuleName="GradientLabel"/>
+      <File FileName="GradientLblReg.pas" ContainerId="PascalCompiler" ModuleName="GradientLblReg"/>
+      <File FileName="Hilireg.pas" ContainerId="PascalCompiler" ModuleName="Hilireg"/>
+      <File FileName="HINTLIST.PAS" ContainerId="PascalCompiler" ModuleName="HINTLIST"/>
+      <File FileName="htmbureg.pas" ContainerId="PascalCompiler" ModuleName="htmbureg"/>
+      <File FileName="htmcombo.pas" ContainerId="PascalCompiler" ModuleName="htmcombo"/>
+      <File FileName="htmcoreg.pas" ContainerId="PascalCompiler" ModuleName="htmcoreg"/>
+      <File FileName="FRMSHAPE.PAS" ContainerId="PascalCompiler" ModuleName="FRMSHAPE"/>
+      <File FileName="htmlhint.pas" ContainerId="PascalCompiler" ModuleName="htmlhint"/>
+      <File FileName="htmldlgr.pas" ContainerId="PascalCompiler" ModuleName="htmldlgr"/>
+      <File FileName="htmlchklireg.pas" ContainerId="PascalCompiler" ModuleName="htmlchklireg"/>
+      <File FileName="HtmlChkList.pas" ContainerId="PascalCompiler" ModuleName="HtmlChkList"/>
+      <File FileName="HTMLCredit.pas" ContainerId="PascalCompiler" ModuleName="HTMLCredit"/>
+      <File FileName="HTMLCreditReg.pas" ContainerId="PascalCompiler" ModuleName="HTMLCreditReg"/>
+      <File FileName="HTMLDialog.pas" ContainerId="PascalCompiler" ModuleName="HTMLDialog"/>
+      <File FileName="htmstreg.pas" ContainerId="PascalCompiler" ModuleName="htmstreg"/>
+      <File FileName="htmlireg.pas" ContainerId="PascalCompiler" ModuleName="htmlireg"/>
+      <File FileName="HTMListb.pas" ContainerId="PascalCompiler" ModuleName="HTMListb"/>
+      <File FileName="HTMLPopup.pas" ContainerId="PascalCompiler" ModuleName="HTMLPopup"/>
+      <File FileName="HTMLPopupReg.pas" ContainerId="PascalCompiler" ModuleName="HTMLPopupReg"/>
+      <File FileName="HTMLStatusBar.pas" ContainerId="PascalCompiler" ModuleName="HTMLStatusBar"/>
+      <File FileName="htmltext.pas" ContainerId="PascalCompiler" ModuleName="htmltext"/>
+      <File FileName="HTMLTLREG.pas" ContainerId="PascalCompiler" ModuleName="HTMLTLREG"/>
+      <File FileName="HTMLTreeList.pas" ContainerId="PascalCompiler" ModuleName="HTMLTreeList"/>
+      <File FileName="htmltv.pas" ContainerId="PascalCompiler" ModuleName="htmltv"/>
+      <File FileName="htmltvr.pas" ContainerId="PascalCompiler" ModuleName="htmltvr"/>
+      <File FileName="htmstbr.pas" ContainerId="PascalCompiler" ModuleName="htmstbr"/>
+      <File FileName="InspDD.pas" ContainerId="PascalCompiler" ModuleName="InspDD"/>
+      <File FileName="INIInspectorBar.pas" ContainerId="PascalCompiler" ModuleName="INIInspectorBar"/>
+      <File FileName="INIInspectorBarReg.pas" ContainerId="PascalCompiler" ModuleName="INIInspectorBarReg"/>
+      <File FileName="lfreg.pas" ContainerId="PascalCompiler" ModuleName="lfreg"/>
+      <File FileName="inspectorbar.pas" ContainerId="PascalCompiler" ModuleName="inspectorbar"/>
+      <File FileName="InspectorBarReg.pas" ContainerId="PascalCompiler" ModuleName="InspectorBarReg"/>
+      <File FileName="InspEdits.pas" ContainerId="PascalCompiler" ModuleName="InspEdits"/>
+      <File FileName="InspImg.pas" ContainerId="PascalCompiler" ModuleName="InspImg"/>
+      <File FileName="InspLinks.pas" ContainerId="PascalCompiler" ModuleName="InspLinks"/>
+      <File FileName="layeredform.pas" ContainerId="PascalCompiler" ModuleName="layeredform"/>
+      <File FileName="llreg.pas" ContainerId="PascalCompiler" ModuleName="llreg"/>
+      <File FileName="LISTLINK.PAS" ContainerId="PascalCompiler" ModuleName="LISTLINK"/>
+      <File FileName="maskedex.pas" ContainerId="PascalCompiler" ModuleName="maskedex"/>
+      <File FileName="mskreg.pas" ContainerId="PascalCompiler" ModuleName="mskreg"/>
+      <File FileName="PickDlg.pas" ContainerId="PascalCompiler" ModuleName="PickDlg"/>
+      <File FileName="pdlgreg.pas" ContainerId="PascalCompiler" ModuleName="pdlgreg"/>
+      <File FileName="PictureContainerReg.pas" ContainerId="PascalCompiler" ModuleName="PictureContainerReg"/>
+      <File FileName="SHADER.PAS" ContainerId="PascalCompiler" ModuleName="SHADER"/>
+      <File FileName="Tilebmp.pas" ContainerId="PascalCompiler" ModuleName="Tilebmp"/>
+      <File FileName="slstbox.pas" ContainerId="PascalCompiler" ModuleName="slstbox"/>
+      <File FileName="slstreg.pas" ContainerId="PascalCompiler" ModuleName="slstreg"/>
+      <File FileName="vCalReg.pas" ContainerId="PascalCompiler" ModuleName="vCalReg"/>
+      <File FileName="tlreg.pas" ContainerId="PascalCompiler" ModuleName="tlreg"/>
+      <File FileName="ToolPanels.pas" ContainerId="PascalCompiler" ModuleName="ToolPanels"/>
+      <File FileName="ToolPanelsReg.pas" ContainerId="PascalCompiler" ModuleName="ToolPanelsReg"/>
+      <File FileName="treelist.pas" ContainerId="PascalCompiler" ModuleName="treelist"/>
+      <File FileName="vCal.pas" ContainerId="PascalCompiler" ModuleName="vCal"/>
+      <File FileName="TodoListReg.pas" ContainerId="PascalCompiler" ModuleName="TodoListReg"/>
+      <File FileName="TodoList.pas" ContainerId="PascalCompiler" ModuleName="TodoList"/>
+      <File FileName="DBTodoListReg.pas" ContainerId="PascalCompiler" ModuleName="DBTodoListReg"/>
+      <File FileName="DBTodoList.pas" ContainerId="PascalCompiler" ModuleName="DBTodoList"/>
+      <File FileName="ccedlink.pas" ContainerId="PascalCompiler" ModuleName="ccedlink"/>
+      <File FileName="PlanRecurrEdit.pas" ContainerId="PascalCompiler" ModuleName="PlanRecurrEdit"/>
+      <File FileName="PlanRecurr.pas" ContainerId="PascalCompiler" ModuleName="PlanRecurr"/>
+      <File FileName="AdvMemoStylerManager.pas" ContainerId="PascalCompiler" ModuleName="AdvMemoStylerManager"/>
+      <File FileName="AdvmINIs.pas" ContainerId="PascalCompiler" ModuleName="AdvmINIs"/>
+      <File FileName="Advmxml.pas" ContainerId="PascalCompiler" ModuleName="Advmxml"/>
+      <File FileName="AdvSelectors.pas" ContainerId="PascalCompiler" ModuleName="AdvSelectors"/>
+      <File FileName="AdvFontCombo.pas" ContainerId="PascalCompiler" ModuleName="AdvFontCombo"/>
+      <File FileName="TMSGraphicsReg.pas" ContainerId="PascalCompiler" ModuleName="TMSGraphicsReg"/>
+      <File FileName="PlannerDBMaskDatePicker.pas" ContainerId="PascalCompiler" ModuleName="PlannerDBMaskDatePicker"/>
+      <File FileName="PlannerDBDatePicker.pas" ContainerId="PascalCompiler" ModuleName="PlannerDBDatePicker"/>
+      <File FileName="DBAdvGridReg.pas" ContainerId="PascalCompiler" ModuleName="DBAdvGridReg"/>
+      <File FileName="DBAdvGrid.pas" ContainerId="PascalCompiler" ModuleName="DBAdvGrid"/>
+      <File FileName="AdvGridRtf.pas" ContainerId="PascalCompiler" ModuleName="AdvGridRtf"/>
+      <File FileName="RTFEngine.pas" ContainerId="PascalCompiler" ModuleName="RTFEngine"/>
+      <File FileName="advgridcsvpager.pas" ContainerId="PascalCompiler" ModuleName="advgridcsvpager"/>
+      <File FileName="planneractions.pas" ContainerId="PascalCompiler" ModuleName="planneractions"/>
+      <File FileName="advmphp.pas" ContainerId="PascalCompiler" ModuleName="advmphp"/>
+      <File FileName="advstyleif.pas" ContainerId="PascalCompiler" ModuleName="advstyleif"/>
+    </FileList>
+  </DelphiDotNet.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

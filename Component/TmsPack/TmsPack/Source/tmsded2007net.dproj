@@ -1,0 +1,177 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{ce67807d-542d-44b6-918d-8ef01af9f4c4}</ProjectGuid>
+    <MainSource>tmsded2007net.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCCIL</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\tmsded2007net.dll</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+    <DCC_UnitSearchPath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_UnitSearchPath>
+    <DCC_ResourcePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_ResourcePath>
+    <DCC_IncludePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+    <DCC_UnitSearchPath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_UnitSearchPath>
+    <DCC_ResourcePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_ResourcePath>
+    <DCC_IncludePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_IncludePath>
+    <DCC_Platform>x86</DCC_Platform>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>DelphiDotNet.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject xmlns=""> <DelphiDotNet.Personality>   <Parameters>
+      <Parameters Name="UseLauncher">False</Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+    <Package_Options>
+      <Package_Options Name="ImplicitBuild">False</Package_Options>
+      <Package_Options Name="DesigntimeOnly">False</Package_Options>
+      <Package_Options Name="RuntimeOnly">False</Package_Options>
+    </Package_Options>
+    <VersionInfo>
+      <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+      <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+      <VersionInfo Name="MajorVer">1</VersionInfo>
+      <VersionInfo Name="MinorVer">0</VersionInfo>
+      <VersionInfo Name="Release">0</VersionInfo>
+      <VersionInfo Name="Build">0</VersionInfo>
+      <VersionInfo Name="Debug">False</VersionInfo>
+      <VersionInfo Name="PreRelease">False</VersionInfo>
+      <VersionInfo Name="Special">False</VersionInfo>
+      <VersionInfo Name="Private">False</VersionInfo>
+      <VersionInfo Name="DLL">False</VersionInfo>
+      <VersionInfo Name="Locale">2067</VersionInfo>
+      <VersionInfo Name="CodePage">1252</VersionInfo>
+    </VersionInfo>
+    <VersionInfoKeys>
+      <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+      <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+    </VersionInfoKeys>
+    <Source>
+      <Source Name="MainSource">tmsded2007net.dpk</Source>
+    </Source>
+  </DelphiDotNet.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="tmsded2007net.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="acgde.pas" />
+    <DCCReference Include="AdvAlertMessageDE.pas" />
+    <DCCReference Include="AdvAlertWindowRegDE.pas" />
+    <DCCReference Include="AdvHTMLDE.pas" />
+    <DCCReference Include="AdvHTMLProp.pas" />
+    <DCCReference Include="AdvMemoAC.pas" />
+    <DCCReference Include="AdvMemoDE.pas" />
+    <DCCReference Include="AdvMemoRegDe.pas" />
+    <DCCReference Include="AdvNavBarRegDE.pas" />
+    <DCCReference Include="AdvPageControlde.pas" />
+    <DCCReference Include="AdvPageControlRegDe.pas" />
+    <DCCReference Include="advpnlde.pas" />
+    <DCCReference Include="advpnlregde.pas" />
+    <DCCReference Include="AdvToolButtonDE.pas" />
+    <DCCReference Include="AdvToolButtonStyles.pas" />
+    <DCCReference Include="AdvTreeComboBoxDE.pas" />
+    <DCCReference Include="AdvTreeComboBoxRegDE.pas" />
+    <DCCReference Include="asgcregde.pas" />
+    <DCCReference Include="asgde.pas" />
+    <DCCReference Include="AsgRegDE.pas" />
+    <DCCReference Include="atbregde.pas" />
+    <DCCReference Include="calcregde.pas" />
+    <DCCReference Include="ColorDlg.pas" />
+    <DCCReference Include="DBAdvGridDE.pas" />
+    <DCCReference Include="dbhtmlaregde.pas" />
+    <DCCReference Include="DBHTMLBtnsRegDE.pas" />
+    <DCCReference Include="dbplande.pas" />
+    <DCCReference Include="DBPlannerCalDE.pas" />
+    <DCCReference Include="DBPlannerCalRegDE.pas" />
+    <DCCReference Include="DBPlannerMonthViewRegDE.pas" />
+    <DCCReference Include="dbplanregde.pas" />
+    <DCCReference Include="DBTodoListDE.pas" />
+    <DCCReference Include="DBTodoListRegDE.pas" />
+    <DCCReference Include="htmburegde.pas" />
+    <DCCReference Include="htmlaregde.pas" />
+    <DCCReference Include="htmlchkliregde.pas" />
+    <DCCReference Include="HTMLCreditRegDE.pas" />
+    <DCCReference Include="htmlde.pas" />
+    <DCCReference Include="htmldlgregde.pas" />
+    <DCCReference Include="htmlpopupregde.pas" />
+    <DCCReference Include="htmlprop.pas" />
+    <DCCReference Include="htmlsde.pas" />
+    <DCCReference Include="htmstregde.pas" />
+    <DCCReference Include="InspDE.pas" />
+    <DCCReference Include="InspectorBarRegDE.pas" />
+    <DCCReference Include="paramchklregde.pas" />
+    <DCCReference Include="Paramde.pas" />
+    <DCCReference Include="paramedit.pas" />
+    <DCCReference Include="paramlabregde.pas" />
+    <DCCReference Include="paramlistprop.pas" />
+    <DCCReference Include="paramlstregde.pas" />
+    <DCCReference Include="paramprop.pas" />
+    <DCCReference Include="paramsde.pas" />
+    <DCCReference Include="paramtreeprop.pas" />
+    <DCCReference Include="paramtreeviewregde.pas" />
+    <DCCReference Include="pdlgregde.pas" />
+    <DCCReference Include="plande.pas" />
+    <DCCReference Include="PlannerCalRegDE.pas" />
+    <DCCReference Include="PlannerMonthViewRegDE.pas" />
+    <DCCReference Include="planregde.pas" />
+    <DCCReference Include="PlanStyles.pas" />
+    <DCCReference Include="slstde.pas" />
+    <DCCReference Include="slstregde.pas" />
+    <DCCReference Include="ToDoListde.pas" />
+    <DCCReference Include="ToDoListregde.pas" />
+    <DCCReference Include="ToolPanelsDE.pas" />
+    <DCCReference Include="ToolPanelsRegDE.pas" />
+    <DCCReference Include="uMemoEdit.pas" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="c:\program files\codegear\rad studio\5.0\bin\Borland.Studio.Vcl.Design.dll">
+      <AssemblyName>Borland.Studio.Vcl.Design</AssemblyName>
+      <Version>11.0.5000.8981</Version>
+      <AssemblyTag>c:\program files\codegear\rad studio\5.0\bin\Borland.Studio.Vcl.Design.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclDbCtrls.dll">
+      <AssemblyName>Borland.VclDbCtrls</AssemblyName>
+      <Version>7.1.1523.17956</Version>
+      <AssemblyTag>c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclDbCtrls.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.Delphi.dll">
+      <AssemblyName>Borland.Delphi</AssemblyName>
+      <Version>10.0.4143.0</Version>
+      <AssemblyTag>c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.Delphi.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="tmsd2007net.dll">
+      <AssemblyName>tmsd2007net</AssemblyName>
+      <Version>4.6.0.0</Version>
+      <AssemblyTag>tmsd2007net</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+  </ItemGroup>
+</Project>

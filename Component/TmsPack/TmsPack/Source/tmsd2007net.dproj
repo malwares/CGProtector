@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{e1eea411-0f8f-4e7d-9d71-789204e588df}</ProjectGuid>
+    <MainSource>tmsd2007net.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCCIL</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>..\..\pack\tmsd2007net.dll</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+    <DCC_UnitSearchPath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_UnitSearchPath>
+    <DCC_ResourcePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_ResourcePath>
+    <DCC_IncludePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_SYMBOL_DEPRECATED>False</DCC_SYMBOL_DEPRECATED>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+    <DCC_UNIT_DEPRECATED>False</DCC_UNIT_DEPRECATED>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+    <DCC_UnitSearchPath>c:\program files\common files\borland shared\bds\shared assemblies\4.0;C:\Program Files\CodeGear\RAD Studio\5.0\bin;C:\WINDOWS\assembly\GAC_MSIL\Borland.Vcl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\WINDOWS\assembly\GAC_MSIL\Borland.VclRtl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\WINDOWS\assembly\GAC_MSIL\Borland.VclDbRtl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\Delphi2007\Pack</DCC_UnitSearchPath>
+    <DCC_ResourcePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0;C:\Program Files\CodeGear\RAD Studio\5.0\bin;C:\WINDOWS\assembly\GAC_MSIL\Borland.Vcl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\WINDOWS\assembly\GAC_MSIL\Borland.VclRtl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\WINDOWS\assembly\GAC_MSIL\Borland.VclDbRtl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\Delphi2007\Pack</DCC_ResourcePath>
+    <DCC_IncludePath>c:\program files\common files\borland shared\bds\shared assemblies\4.0;C:\Program Files\CodeGear\RAD Studio\5.0\bin;C:\WINDOWS\assembly\GAC_MSIL\Borland.Vcl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\WINDOWS\assembly\GAC_MSIL\Borland.VclRtl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\WINDOWS\assembly\GAC_MSIL\Borland.VclDbRtl\11.0.5000.8981__91d62ebb5b0d1b1b;C:\Delphi2007\Pack</DCC_IncludePath>
+    <DCC_SYMBOL_DEPRECATED>False</DCC_SYMBOL_DEPRECATED>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+    <DCC_UNIT_DEPRECATED>False</DCC_UNIT_DEPRECATED>
+    <DCC_Platform>x86</DCC_Platform>
+    <DCC_BplOutput>\delphi2007\pack</DCC_BplOutput>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>DelphiDotNet.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><DelphiDotNet.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Package_Options><Package_Options Name="ImplicitBuild">False</Package_Options><Package_Options Name="DesigntimeOnly">False</Package_Options><Package_Options Name="RuntimeOnly">False</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2067</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">tmsd2007net.dpk</Source></Source></DelphiDotNet.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <Reference Include="c:\program files\codegear\rad studio\5.0\bin\Borland.Vcl.Design.BdeRtl.dll">
+      <AssemblyName>Borland.Vcl.Design.BdeRtl</AssemblyName>
+      <Version>11.0.5000.8981</Version>
+      <AssemblyTag>c:\program files\codegear\rad studio\5.0\bin\Borland.Vcl.Design.BdeRtl.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="c:\program files\codegear\rad studio\5.0\bin\Borland.Vcl.Design.DbCtrls.dll">
+      <AssemblyName>Borland.Vcl.Design.DbCtrls</AssemblyName>
+      <Version>11.0.5000.8981</Version>
+      <AssemblyTag>c:\program files\codegear\rad studio\5.0\bin\Borland.Vcl.Design.DbCtrls.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclDbRtl.dll">
+      <AssemblyName>Borland.VclDbRtl</AssemblyName>
+      <Version>7.1.1523.17956</Version>
+      <AssemblyTag>c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclDbRtl.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="C:\Program Files\Common Files\Borland Shared\BDS\Shared Assemblies\4.0\Borland.Delphi.dll">
+      <AssemblyName>Borland.Delphi</AssemblyName>
+      <Version>10.0.4143.0</Version>
+      <AssemblyTag>C:\Program Files\Common Files\Borland Shared\BDS\Shared Assemblies\4.0\Borland.Delphi.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="C:\Program Files\Common Files\Borland Shared\BDS\Shared Assemblies\4.0\Borland.Vcl.dll">
+      <AssemblyName>Borland.Vcl</AssemblyName>
+      <Version>10.0.4143.0</Version>
+      <AssemblyTag>C:\Program Files\Common Files\Borland Shared\BDS\Shared Assemblies\4.0\Borland.Vcl.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="C:\Program Files\Common Files\Borland Shared\BDS\Shared Assemblies\4.0\Borland.VclRtl.dll">
+      <AssemblyName>Borland.VclRtl</AssemblyName>
+      <Version>10.0.4143.0</Version>
+      <AssemblyTag>C:\Program Files\Common Files\Borland Shared\BDS\Shared Assemblies\4.0\Borland.VclRtl.dll</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <DelphiCompile Include="tmsd2007net.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="acreg.dcr" />
+    <DCCReference Include="acreg.dcr" />
+    <DCCReference Include="acreg.pas" />
+    <DCCReference Include="AdvAlertWindow.pas" />
+    <DCCReference Include="AdvAlertWindowReg.dcr" />
+    <DCCReference Include="AdvAlertWindowReg.dcr" />
+    <DCCReference Include="AdvAlertWindowReg.pas" />
+    <DCCReference Include="advcardlist.pas">
+      <Form>AdvCardList.TCardListEditLink</Form>
+      <DesignClass>system.componentmodel.component</DesignClass>
+    </DCCReference>
+    <DCCReference Include="advcardlistreg.pas" />
+    <DCCReference Include="advcardliststyler.pas">
+      <Form>AdvCardListStyler.TAdvCustomCardListStyler</Form>
+      <DesignClass>System.ComponentModel.Component</DesignClass>
+    </DCCReference>
+    <DCCReference Include="AdvCGrid.pas" />
+    <DCCReference Include="AdvCodeHint.pas" />
+    <DCCReference Include="AdvCodeList.pas" />
+    <DCCReference Include="AdvCodeListLib.pas" />
+    <DCCReference Include="AdvCombo.pas" />
+    <DCCReference Include="advedbr.dcr" />
+    <DCCReference Include="advedbr.dcr" />
+    <DCCReference Include="advedbr.pas" />
+    <DCCReference Include="AdvEdBtn.pas" />
+    <DCCReference Include="adveddd.pas" />
+    <DCCReference Include="AdvEdit.pas" />
+    <DCCReference Include="AdvFileNameEdit.dcr" />
+    <DCCReference Include="AdvFileNameEdit.dcr" />
+    <DCCReference Include="AdvFileNameEdit.pas" />
+    <DCCReference Include="AdvFontCombo.pas" />
+    <DCCReference Include="AdvGradient.pas" />
+    <DCCReference Include="advgrid.pas">
+      <Form>AdvGrid.TEditLink</Form>
+      <DesignClass>System.ComponentModel.Component</DesignClass>
+    </DCCReference>
+    <DCCReference Include="advgridcsvpager.pas" />
+    <DCCReference Include="AdvGridRtf.pas" />
+    <DCCReference Include="AdvGridWorkbook.pas" />
+    <DCCReference Include="advlued.pas" />
+    <DCCReference Include="advluedr.dcr" />
+    <DCCReference Include="advluedr.dcr" />
+    <DCCReference Include="advluedr.pas" />
+    <DCCReference Include="advmbs.pas" />
+    <DCCReference Include="advmcshs.pas" />
+    <DCCReference Include="Advmcss.pas" />
+    <DCCReference Include="AdvMEdBtn.pas" />
+    <DCCReference Include="AdvMemo.pas" />
+    <DCCReference Include="AdvMemoReg.dcr" />
+    <DCCReference Include="AdvMemoReg.dcr" />
+    <DCCReference Include="AdvMemoReg.pas" />
+    <DCCReference Include="AdvMemoStylerManager.pas" />
+    <DCCReference Include="advmes.pas" />
+    <DCCReference Include="AdvmINIs.pas" />
+    <DCCReference Include="AdvMoneyEdit.pas" />
+    <DCCReference Include="AdvMoneyEditReg.dcr" />
+    <DCCReference Include="AdvMoneyEditReg.dcr" />
+    <DCCReference Include="AdvMoneyEditReg.pas" />
+    <DCCReference Include="advmphp.pas" />
+    <DCCReference Include="advmpls.pas" />
+    <DCCReference Include="advmps.pas" />
+    <DCCReference Include="advmpys.pas" />
+    <DCCReference Include="AdvmSQLs.pas" />
+    <DCCReference Include="advmws.pas" />
+    <DCCReference Include="Advmxml.pas" />
+    <DCCReference Include="AdvNavBar.pas" />
+    <DCCReference Include="AdvNavBarReg.dcr" />
+    <DCCReference Include="AdvNavBarReg.dcr" />
+    <DCCReference Include="AdvNavBarReg.pas" />
+    <DCCReference Include="Advobj.pas" />
+    <DCCReference Include="AdvPageControl.pas" />
+    <DCCReference Include="AdvPageControlreg.dcr" />
+    <DCCReference Include="AdvPageControlreg.dcr" />
+    <DCCReference Include="AdvPageControlreg.pas" />
+    <DCCReference Include="advpanel.pas">
+      <Form>AdvPanel.TAdvPanelStyler</Form>
+      <DesignClass>System.ComponentModel.Component</DesignClass>
+    </DCCReference>
+    <DCCReference Include="advpnlreg.dcr" />
+    <DCCReference Include="advpnlreg.dcr" />
+    <DCCReference Include="advpnlreg.pas" />
+    <DCCReference Include="AdvProgr.pas" />
+    <DCCReference Include="AdvProgressBar.pas" />
+    <DCCReference Include="AdvProgressBarReg.dcr" />
+    <DCCReference Include="AdvProgressBarReg.dcr" />
+    <DCCReference Include="AdvProgressBarReg.pas" />
+    <DCCReference Include="advqryr.dcr" />
+    <DCCReference Include="advqryr.dcr" />
+    <DCCReference Include="advqryr.pas" />
+    <DCCReference Include="AdvQueryDialog.pas" />
+    <DCCReference Include="AdvSelectors.pas" />
+    <DCCReference Include="advspin.pas" />
+    <DCCReference Include="advstyleif.pas" />
+    <DCCReference Include="AdvTabSet.pas" />
+    <DCCReference Include="AdvTabSetReg.dcr" />
+    <DCCReference Include="AdvTabSetReg.dcr" />
+    <DCCReference Include="AdvTabSetReg.pas" />
+    <DCCReference Include="advtoolbtn.pas" />
+    <DCCReference Include="AdvTreeComboBox.pas" />
+    <DCCReference Include="AdvTreeComboBoxReg.pas" />
+    <DCCReference Include="advutil.pas" />
+    <DCCReference Include="aereg.dcr" />
+    <DCCReference Include="aereg.dcr" />
+    <DCCReference Include="aereg.pas" />
+    <DCCReference Include="apreg.pas" />
+    <DCCReference Include="asgcheck.pas" />
+    <DCCReference Include="asgcombo.pas" />
+    <DCCReference Include="asgcreg.pas" />
+    <DCCReference Include="asgdd.pas" />
+    <DCCReference Include="asgedit.pas" />
+    <DCCReference Include="AsgFindDialog.pas" />
+    <DCCReference Include="AsgHTML.pas" />
+    <DCCReference Include="AsgHTMLE.pas" />
+    <DCCReference Include="AsgLinks.pas">
+      <Form>AsgLinks.TAdvEditEditLink</Form>
+      <DesignClass>AdvGrid.TEditLink</DesignClass>
+    </DCCReference>
+    <DCCReference Include="AsgMemo.pas" />
+    <DCCReference Include="asgprev.pas" />
+    <DCCReference Include="asgprint.pas" />
+    <DCCReference Include="asgreg.pas" />
+    <DCCReference Include="AsgReplaceDialog.pas" />
+    <DCCReference Include="asgspin.pas" />
+    <DCCReference Include="asreg.dcr" />
+    <DCCReference Include="asreg.dcr" />
+    <DCCReference Include="asreg.pas" />
+    <DCCReference Include="atbreg.dcr" />
+    <DCCReference Include="atbreg.dcr" />
+    <DCCReference Include="atbreg.pas" />
+    <DCCReference Include="BaseGrid.pas" />
+    <DCCReference Include="btnlireg.dcr" />
+    <DCCReference Include="btnlireg.dcr" />
+    <DCCReference Include="btnlireg.pas" />
+    <DCCReference Include="BtnListB.pas" />
+    <DCCReference Include="CalComp.pas" />
+    <DCCReference Include="calcreg.dcr" />
+    <DCCReference Include="calcreg.dcr" />
+    <DCCReference Include="calcreg.pas" />
+    <DCCReference Include="CalPanel.pas" />
+    <DCCReference Include="calpreg.dcr" />
+    <DCCReference Include="calpreg.dcr" />
+    <DCCReference Include="calpreg.pas" />
+    <DCCReference Include="ccedlink.pas">
+      <Form>ccedlink.TColumnComboEditLink</Form>
+      <DesignClass>AdvGrid.TEditLink</DesignClass>
+    </DCCReference>
+    <DCCReference Include="Clisted.pas" />
+    <DCCReference Include="clistedr.dcr" />
+    <DCCReference Include="clistedr.dcr" />
+    <DCCReference Include="clistedr.pas" />
+    <DCCReference Include="colcombo.pas" />
+    <DCCReference Include="colcoreg.dcr" />
+    <DCCReference Include="colcoreg.dcr" />
+    <DCCReference Include="colcoreg.pas" />
+    <DCCReference Include="collireg.dcr" />
+    <DCCReference Include="collireg.dcr" />
+    <DCCReference Include="collireg.pas" />
+    <DCCReference Include="collistb.pas" />
+    <DCCReference Include="ColorCombo.pas" />
+    <DCCReference Include="datelbl.dcr" />
+    <DCCReference Include="datelbl.dcr" />
+    <DCCReference Include="datelbl.pas" />
+    <DCCReference Include="DBAdvEd.pas" />
+    <DCCReference Include="DBAdvEdBtn.pas" />
+    <DCCReference Include="DBAdvEdBtnReg.dcr" />
+    <DCCReference Include="DBAdvEdBtnReg.dcr" />
+    <DCCReference Include="DBAdvEdBtnReg.pas" />
+    <DCCReference Include="DBAdvGrid.pas" />
+    <DCCReference Include="DBAdvGridReg.pas" />
+    <DCCReference Include="dbadvle.pas" />
+    <DCCReference Include="dbadvler.dcr" />
+    <DCCReference Include="dbadvler.dcr" />
+    <DCCReference Include="dbadvler.pas" />
+    <DCCReference Include="DBAdvMemo.pas" />
+    <DCCReference Include="DBAdvSp.pas" />
+    <DCCReference Include="dbaereg.dcr" />
+    <DCCReference Include="dbaereg.dcr" />
+    <DCCReference Include="dbaereg.pas" />
+    <DCCReference Include="dbasreg.dcr" />
+    <DCCReference Include="dbasreg.dcr" />
+    <DCCReference Include="dbasreg.pas" />
+    <DCCReference Include="dbhtmlab.pas" />
+    <DCCReference Include="dbhtmlar.dcr" />
+    <DCCReference Include="dbhtmlar.dcr" />
+    <DCCReference Include="dbhtmlar.pas" />
+    <DCCReference Include="DBHTMLBtns.pas" />
+    <DCCReference Include="DBHTMLBtnsReg.dcr" />
+    <DCCReference Include="DBHTMLBtnsReg.dcr" />
+    <DCCReference Include="DBHTMLBtnsReg.pas" />
+    <DCCReference Include="dblucmbr.dcr" />
+    <DCCReference Include="dblucmbr.dcr" />
+    <DCCReference Include="dblucmbr.pas" />
+    <DCCReference Include="dblucomb.pas" />
+    <DCCReference Include="dbmereg.dcr" />
+    <DCCReference Include="dbmereg.dcr" />
+    <DCCReference Include="dbmereg.pas" />
+    <DCCReference Include="dbmnyed.pas" />
+    <DCCReference Include="DBPlanner.pas" />
+    <DCCReference Include="DBPlannerCal.pas" />
+    <DCCReference Include="DBPlannerCalReg.dcr" />
+    <DCCReference Include="DBPlannerCalReg.dcr" />
+    <DCCReference Include="DBPlannerCalReg.pas" />
+    <DCCReference Include="DBPlannerDatePicker.pas" />
+    <DCCReference Include="dbplannermonthview.pas" />
+    <DCCReference Include="DBPlannerMonthViewReg.pas" />
+    <DCCReference Include="dbplanreg.dcr" />
+    <DCCReference Include="dbplanreg.dcr" />
+    <DCCReference Include="dbplanreg.pas" />
+    <DCCReference Include="DBTodoList.pas" />
+    <DCCReference Include="DBTodoListReg.dcr" />
+    <DCCReference Include="DBTodoListReg.dcr" />
+    <DCCReference Include="DBTodoListReg.pas" />
+    <DCCReference Include="EditBtn.pas" />
+    <DCCReference Include="editlist.pas" />
+    <DCCReference Include="edtbreg.dcr" />
+    <DCCReference Include="edtbreg.dcr" />
+    <DCCReference Include="edtbreg.pas" />
+    <DCCReference Include="edtlstreg.dcr" />
+    <DCCReference Include="edtlstreg.dcr" />
+    <DCCReference Include="edtlstreg.pas" />
+    <DCCReference Include="EllipsLabel.pas" />
+    <DCCReference Include="EllipsLblReg.dcr" />
+    <DCCReference Include="EllipsLblReg.dcr" />
+    <DCCReference Include="EllipsLblReg.pas" />
+    <DCCReference Include="FlCtrlEx.pas" />
+    <DCCReference Include="flctrlr.pas" />
+    <DCCReference Include="FormSize.pas" />
+    <DCCReference Include="frmctrllink.pas" />
+    <DCCReference Include="FRMSHAPE.PAS" />
+    <DCCReference Include="frmsreg.dcr" />
+    <DCCReference Include="frmsreg.dcr" />
+    <DCCReference Include="frmsreg.pas" />
+    <DCCReference Include="fsreg.dcr" />
+    <DCCReference Include="fsreg.dcr" />
+    <DCCReference Include="fsreg.pas" />
+    <DCCReference Include="GradientLabel.pas" />
+    <DCCReference Include="GradientLblReg.dcr" />
+    <DCCReference Include="GradientLblReg.dcr" />
+    <DCCReference Include="GradientLblReg.pas" />
+    <DCCReference Include="Hilireg.dcr" />
+    <DCCReference Include="Hilireg.dcr" />
+    <DCCReference Include="Hilireg.pas" />
+    <DCCReference Include="HINTLIST.PAS" />
+    <DCCReference Include="htmbureg.dcr" />
+    <DCCReference Include="htmbureg.dcr" />
+    <DCCReference Include="htmbureg.pas" />
+    <DCCReference Include="htmcombo.pas" />
+    <DCCReference Include="htmcoreg.dcr" />
+    <DCCReference Include="htmcoreg.dcr" />
+    <DCCReference Include="htmcoreg.pas" />
+    <DCCReference Include="htmhireg.dcr" />
+    <DCCReference Include="htmhireg.dcr" />
+    <DCCReference Include="htmhireg.pas" />
+    <DCCReference Include="htmlabel.pas" />
+    <DCCReference Include="htmlareg.dcr" />
+    <DCCReference Include="htmlareg.dcr" />
+    <DCCReference Include="htmlareg.pas" />
+    <DCCReference Include="htmlbtns.pas" />
+    <DCCReference Include="htmlchklireg.dcr" />
+    <DCCReference Include="htmlchklireg.dcr" />
+    <DCCReference Include="htmlchklireg.pas" />
+    <DCCReference Include="HtmlChkList.pas" />
+    <DCCReference Include="HTMLCredit.pas" />
+    <DCCReference Include="HTMLCreditReg.dcr" />
+    <DCCReference Include="HTMLCreditReg.dcr" />
+    <DCCReference Include="HTMLCreditReg.pas" />
+    <DCCReference Include="HTMLDialog.pas" />
+    <DCCReference Include="htmldlgr.dcr" />
+    <DCCReference Include="htmldlgr.dcr" />
+    <DCCReference Include="htmldlgr.pas" />
+    <DCCReference Include="htmlhint.pas" />
+    <DCCReference Include="htmlireg.dcr" />
+    <DCCReference Include="htmlireg.dcr" />
+    <DCCReference Include="htmlireg.pas" />
+    <DCCReference Include="HTMListb.pas" />
+    <DCCReference Include="HTMLPopup.pas" />
+    <DCCReference Include="HTMLPopupReg.dcr" />
+    <DCCReference Include="HTMLPopupReg.dcr" />
+    <DCCReference Include="HTMLPopupReg.pas" />
+    <DCCReference Include="HTMLStatusBar.pas" />
+    <DCCReference Include="htmltext.pas" />
+    <DCCReference Include="HTMLTLREG.dcr" />
+    <DCCReference Include="HTMLTLREG.dcr" />
+    <DCCReference Include="HTMLTLREG.pas" />
+    <DCCReference Include="htmltreelist.pas" />
+    <DCCReference Include="htmltv.pas" />
+    <DCCReference Include="htmltvr.dcr" />
+    <DCCReference Include="htmltvr.dcr" />
+    <DCCReference Include="htmltvr.pas" />
+    <DCCReference Include="htmstbr.dcr" />
+    <DCCReference Include="htmstbr.dcr" />
+    <DCCReference Include="htmstbr.pas" />
+    <DCCReference Include="htmstreg.dcr" />
+    <DCCReference Include="htmstreg.dcr" />
+    <DCCReference Include="htmstreg.pas" />
+    <DCCReference Include="ImagePicker.pas" />
+    <DCCReference Include="imgpickr.dcr" />
+    <DCCReference Include="imgpickr.dcr" />
+    <DCCReference Include="imgpickr.pas" />
+    <DCCReference Include="INIInspectorBar.pas" />
+    <DCCReference Include="INIInspectorBarReg.dcr" />
+    <DCCReference Include="INIInspectorBarReg.dcr" />
+    <DCCReference Include="INIInspectorBarReg.pas" />
+    <DCCReference Include="InspDD.pas" />
+    <DCCReference Include="inspectorbar.pas" />
+    <DCCReference Include="InspectorBarReg.dcr" />
+    <DCCReference Include="InspectorBarReg.dcr" />
+    <DCCReference Include="InspectorBarReg.pas" />
+    <DCCReference Include="InspEdits.pas" />
+    <DCCReference Include="InspImg.pas" />
+    <DCCReference Include="InspLinks.pas" />
+    <DCCReference Include="layeredform.pas" />
+    <DCCReference Include="lfreg.dcr" />
+    <DCCReference Include="lfreg.dcr" />
+    <DCCReference Include="lfreg.pas" />
+    <DCCReference Include="LISTLINK.PAS" />
+    <DCCReference Include="llreg.dcr" />
+    <DCCReference Include="llreg.dcr" />
+    <DCCReference Include="llreg.pas" />
+    <DCCReference Include="Lucombo.pas" />
+    <DCCReference Include="lureg.dcr" />
+    <DCCReference Include="lureg.dcr" />
+    <DCCReference Include="lureg.pas" />
+    <DCCReference Include="maskedex.pas" />
+    <DCCReference Include="Moneycal.pas" />
+    <DCCReference Include="moneyedit.pas" />
+    <DCCReference Include="MoneyEdr.dcr" />
+    <DCCReference Include="MoneyEdr.dcr" />
+    <DCCReference Include="MoneyEdr.pas" />
+    <DCCReference Include="mskreg.pas" />
+    <DCCReference Include="paramchklist.pas" />
+    <DCCReference Include="paramchklreg.dcr" />
+    <DCCReference Include="paramchklreg.dcr" />
+    <DCCReference Include="paramchklreg.pas" />
+    <DCCReference Include="paramlabel.pas" />
+    <DCCReference Include="paramlabreg.dcr" />
+    <DCCReference Include="paramlabreg.dcr" />
+    <DCCReference Include="paramlabreg.pas" />
+    <DCCReference Include="paramlistbox.pas" />
+    <DCCReference Include="paramlstreg.dcr" />
+    <DCCReference Include="paramlstreg.dcr" />
+    <DCCReference Include="paramlstreg.pas" />
+    <DCCReference Include="paramtreeview.pas" />
+    <DCCReference Include="paramtreeviewreg.dcr" />
+    <DCCReference Include="paramtreeviewreg.dcr" />
+    <DCCReference Include="paramtreeviewreg.pas" />
+    <DCCReference Include="ParHTML.pas" />
+    <DCCReference Include="pdlgreg.dcr" />
+    <DCCReference Include="pdlgreg.dcr" />
+    <DCCReference Include="pdlgreg.pas" />
+    <DCCReference Include="PickDlg.pas" />
+    <DCCReference Include="PictureContainer.pas" />
+    <DCCReference Include="PictureContainerReg.dcr" />
+    <DCCReference Include="PictureContainerReg.dcr" />
+    <DCCReference Include="PictureContainerReg.pas" />
+    <DCCReference Include="plancheck.pas" />
+    <DCCReference Include="PlanCombo.pas" />
+    <DCCReference Include="PlanDraw.pas" />
+    <DCCReference Include="PlanHTML.pas" />
+    <DCCReference Include="PlanItemEdit.pas" />
+    <DCCReference Include="Planner.pas">
+      <Form>Planner.TAlarmMessage</Form>
+      <DesignClass>Planner.TPlannerAlarmHandler</DesignClass>
+    </DCCReference>
+    <DCCReference Include="planneractions.pas" />
+    <DCCReference Include="PlannerCal.pas" />
+    <DCCReference Include="PlannerCalReg.dcr" />
+    <DCCReference Include="PlannerCalReg.dcr" />
+    <DCCReference Include="PlannerCalReg.pas" />
+    <DCCReference Include="PlannerDatePicker.pas" />
+    <DCCReference Include="PlannerDBDatePicker.pas" />
+    <DCCReference Include="PlannerDBMaskDatePicker.pas" />
+    <DCCReference Include="PlannerMaskDatePicker.pas" />
+    <DCCReference Include="plannermonthview.pas" />
+    <DCCReference Include="plannermonthviewreg.pas" />
+    <DCCReference Include="PlannerWaitList.pas" />
+    <DCCReference Include="planobj.pas" />
+    <DCCReference Include="PlanPeriodEdit.pas">
+      <Form>PlanPeriodEdit.TPeriodItemEditor</Form>
+      <DesignClass>Planner.TCustomItemEditor</DesignClass>
+    </DCCReference>
+    <DCCReference Include="PlanRecurr.pas" />
+    <DCCReference Include="PlanRecurrEdit.pas" />
+    <DCCReference Include="planreg.dcr" />
+    <DCCReference Include="planreg.dcr" />
+    <DCCReference Include="planreg.pas" />
+    <DCCReference Include="PlanSimpleEdit.pas" />
+    <DCCReference Include="PlanUtil.pas" />
+    <DCCReference Include="RTFEngine.pas" />
+    <DCCReference Include="SHADER.dcr" />
+    <DCCReference Include="SHADER.dcr" />
+    <DCCReference Include="SHADER.PAS" />
+    <DCCReference Include="slstbox.pas" />
+    <DCCReference Include="slstreg.dcr" />
+    <DCCReference Include="slstreg.dcr" />
+    <DCCReference Include="slstreg.pas" />
+    <DCCReference Include="Spin.pas" />
+    <DCCReference Include="Tilebmp.dcr" />
+    <DCCReference Include="Tilebmp.dcr" />
+    <DCCReference Include="Tilebmp.pas" />
+    <DCCReference Include="tlreg.dcr" />
+    <DCCReference Include="tlreg.dcr" />
+    <DCCReference Include="tlreg.pas" />
+    <DCCReference Include="TMSGraphicsReg.dcr" />
+    <DCCReference Include="TMSGraphicsReg.dcr" />
+    <DCCReference Include="TMSGraphicsReg.pas" />
+    <DCCReference Include="TodoList.pas" />
+    <DCCReference Include="TodoListReg.dcr" />
+    <DCCReference Include="TodoListReg.dcr" />
+    <DCCReference Include="TodoListReg.pas" />
+    <DCCReference Include="ToolPanels.pas" />
+    <DCCReference Include="ToolPanelsReg.dcr" />
+    <DCCReference Include="ToolPanelsReg.dcr" />
+    <DCCReference Include="ToolPanelsReg.pas" />
+    <DCCReference Include="treelist.pas" />
+    <DCCReference Include="vCal.pas" />
+    <DCCReference Include="vCalReg.dcr" />
+    <DCCReference Include="vCalReg.dcr" />
+    <DCCReference Include="vCalReg.pas" />
+    <DCCReference Include="wclogin.pas" />
+    <DCCReference Include="webcopy.pas">
+      <Form>WebCopy.TWebCopy</Form>
+      <DesignClass>system.componentmodel.component</DesignClass>
+    </DCCReference>
+    <DCCReference Include="webcreg.dcr" />
+    <DCCReference Include="webcreg.dcr" />
+    <DCCReference Include="webcreg.pas" />
+    <DCCReference Include="wupdreg.dcr" />
+    <DCCReference Include="wupdreg.dcr" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,178 @@
+********************************************************
+* TMS Component Pack Pro                               *
+* for Delphi 5.0,6.0,7.0,2005,2006,2007,2009,2010      *
+*     C++Builder 5.0,6.0,2006,2007,2009,2010           *
+********************************************************
+ 
+      ////////////////////////////////////////////////// 
+      //   I M P O R T A N T    R E M A R K  !!!!!    //
+      //                                              //  
+      //  For a succesful install of the components,  //
+      //       follow  A L L  steps below             //
+      //                                              //   
+      //////////////////////////////////////////////////
+
+
+Installation :
+--------------
+
+ Setting library paths
+ _____________________
+
+ For Delphi 5,6,7 & C++Builder 5,6
+ ---------------------------------
+ Under Tools, Environment Options, Library, add the directory where
+ the TMS components have been installed {$TMSDIR} to the library path
+ as well as {$TMSDIR}\XlsAdapter
+
+
+ For Delphi 2005, 2006, 2007, 2009, 2010 & C++Builder 2006, 2007, 2009, 2010
+ ---------------------------------------------------------------------------
+ 
+ VCL:
+ Under Tools, Environment Options, Library, add the directory where
+ the TMS components have been installed {$TMSDIR}\Win32 to the Win32 library path
+
+ VCL.NET (Only Delphi 2005,2006,2007):
+ Under Tools, Environment Options, Library, add the directory where
+ the TMS components have been installed {$TMSDIR}\VCLNET to the .NET library path
+
+
+  
+ Installing component project groups
+ ___________________________________
+
+ In Delphi or C++Builder, select File, Open
+ and browse for the appropriate project group file:
+
+ Delphi 5        : TMSD5.BPG
+ Delphi 6        : TMSD6.BPG
+ Delphi 7        : TMSD7.BPG
+ Delphi 2005     : TMSD2005.BDSGROUP
+ Delphi 2006     : TMSD2006.BDSGROUP
+ Delphi 2007     : TMSD2007.BDSGROUP
+ Delphi 2009     : TMSD2009.GROUPPROJ
+ Delphi 2010     : TMSD2010GROUP.GROUPPROJ
+
+ C++Builder 5    : TMSC5.BPG
+ C++Builder 6    : TMSC6.BPG
+ C++Builder 2006 : TMSC2006.BDSGROUP
+ C++Builder 2007 : TMSC2007.GROUPPROJ
+ C++Builder 2009 : TMSC2009.GROUPPROJ
+ C++Builder 2010 : TMSC2010GROUP.GROUPPROJ
+
+
+ Right click on each of the packages in the project group 
+ and choose Install in following order:
+
+ TMSxxx
+ TMSEXxxx
+ TMSDExxx
+ TMSXLSxxx (only for Delphi 6/C++Builder 6 or higher)
+ TMSWIZxxx (only Delphi 2006/2007/2009!)
+
+ with 
+ xxx = D5 for Delphi 5
+ xxx = D6 for Delphi 6
+ xxx = D7 for Delphi 7
+ xxx = D2005 for Delphi 2005
+ xxx = D2006 for Delphi 2006 / Turbo Delphi
+ xxx = D2007 for Delphi 2007
+ xxx = D2009 for Delphi 2009
+ xxx = D2010 for Delphi 2010
+ xxx = C5 for C++Builder 5
+ xxx = C6 for C++Builder 6
+ xxx = C2006 for C++Builder 2006 / Turbo C++
+ xxx = C2007 for C++Builder 2007
+ xxx = C2009 for C++Builder 2009
+ xxx = C2010 for C++Builder 2010
+
+
+ Installing online help
+ ______________________
+
+  For Delphi 6,7 it is required to first put the TMSPACK.ALS file in the
+  {$DELPHI}\Help directory.
+
+  Go through menu Help, Customize and add following file to the Index tab:
+  
+  C++Builder 5 : TMSPACKB5.HLP 
+  C++Builder 6 : TMSPACKB6.HLP 
+  Delphi 5     : TMSPACKD5.HLP
+  Delphi 6     : TMSPACKD6.HLP
+  Delphi 7     : TMSPACKD7.HLP
+
+  Delphi 2005
+  Close the IDE
+  Run RegHelp2 /i TMSPackdBDS3W.hxx
+  Restart the IDE
+
+  Delphi 2006 
+  Close the IDE
+  Run RegHelp2 /i TMSPackdBDS4W.hxx
+  Restart the IDE
+
+  Delphi 2007 
+  Close the IDE
+  Run RegHelp2 /i TMSPackdBDS5W.hxx
+  Restart the IDE
+
+  Delphi 2009 
+  Close the IDE
+  Run RegHelp2 /i TMSPackdRS2009W.hxx
+  Restart the IDE
+
+  Delphi 2010 
+  Close the IDE
+  Run RegHelp2 /i TMSPackdRS2010W.hxx
+  Restart the IDE
+
+  C++Builder 2006
+  Close the IDE
+  Run RegHelp2 /i TMSPackbBDS4W.hxx
+  Restart the IDE
+
+  C++Builder 2007
+  Close the IDE
+  Run RegHelp2 /i TMSPackbBDS5W.hxx
+  Restart the IDE
+
+  C++Builder 2009
+  Run RegHelp2 /i TMSPackbRS2009W.hxx
+  Restart the IDE
+
+  C++Builder 2010
+  Run RegHelp2 /i TMSPackbRS2010W.hxx
+  Restart the IDE
+
+
+Examples
+--------
+Examples for components usage can be obtained after login on the
+website with registration email & code and are included as well
+in the freeware distribution files and available for free download 
+at : http://www.tmssoftware.com
+
+
+Free updates for a full version cycle :
+---------------------------------------
+Free source code updates to all new versions
+during a full TMS Component Pack version cycle
+are available upon request. New versions are
+released at : http://www.tmssoftware.com
+and source code can be obtained after login on
+our website in the registered users section.
+
+
+Installing Add-on components
+----------------------------
+Several add-on components require other 3rd party libraries to be installed.
+In case you have these 3rd party libraries installed, you can use the components.
+
+Installation can be done by adding following files to the TMS Component Pack package
+file :
+
+TChartLink : Add ChartLinkReg.pas
+TAddictPlannerCheck : Add AddictPlannerCheckReg.pas
+TEmailAlarm : Add PlanEmailAlarm.pas
+TOxygenSMSAlaram : Add PlanSMSAlarm.pas

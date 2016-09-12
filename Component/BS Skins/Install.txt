@@ -1,0 +1,24 @@
+For Delphi 5, 6, 7, 2005, 2006, 2007, 2009, 2010:
+
+ - open bsfd*.dpk file
+ - install package
+
+For C++Builder 5, 6:
+
+ - open bsfcb*.bpk file
+ - install package
+
+For C++Builder 2006[2007, 2009, 2010]:
+
+ - open *.bdsproj file
+ - install package
+
+See bsfsb.zip with SkinBuilder sources.
+
+
+Note:
+
+if you use BusinessSkinForm VCL in Delphi 2007-2010 or C++Builder 2007-2010
+you must set Application.MainFormOnTaskBar to False!
+
+

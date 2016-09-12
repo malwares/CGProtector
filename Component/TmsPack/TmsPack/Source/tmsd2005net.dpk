@@ -1,0 +1,413 @@
+package TMSD2005NET;
+
+
+{$R 'AdvMemoReg.dcr'}
+{$R 'AdvNavBarReg.dcr'}
+{$R 'planreg.dcr'}
+{$R 'dbplanreg.dcr'}
+{$R 'PlannerCalReg.dcr'}
+{$R 'advpnlreg.dcr'}
+{$R 'collireg.dcr'}
+{$R 'lureg.dcr'}
+{$R 'acreg.dcr'}
+{$R 'aereg.dcr'}
+{$R 'dbaereg.dcr'}
+{$R 'DBAdvEdBtnReg.dcr'}
+{$R 'dbasreg.dcr'}
+{$R 'asreg.dcr'}
+{$R 'advedbr.dcr'}
+{$R 'paramlabreg.dcr'}
+{$R 'paramlstreg.dcr'}
+{$R 'paramtreeviewreg.dcr'}
+{$R 'paramchklreg.dcr'}
+{$R 'AdvFileNameEdit.dcr'}
+{$R 'AdvAlertWindowReg.dcr'}
+{$R 'advluedr.dcr'}
+{$R 'AdvMoneyEditReg.dcr'}
+{$R 'AdvPageControlreg.dcr'}
+{$R 'AdvTabSetReg.dcr'}
+{$R 'AdvProgressBarReg.dcr'}
+{$R 'advqryr.dcr'}
+{$R 'atbreg.dcr'}
+{$R 'btnlireg.dcr'}
+{$R 'calpreg.dcr'}
+{$R 'calcreg.dcr'}
+{$R 'imgpickr.dcr'}
+{$R 'clistedr.dcr'}
+{$R 'MoneyEdr.dcr'}
+{$R 'colcoreg.dcr'}
+{$R 'datelbl.dcr'}
+{$R 'dbadvler.dcr'}
+{$R 'dbhtmlar.dcr'}
+{$R 'DBHTMLBtnsReg.dcr'}
+{$R 'dblucmbr.dcr'}
+{$R 'dbmereg.dcr'}
+{$R 'DBPlannerCalReg.dcr'}
+{$R 'htmlareg.dcr'}
+{$R 'edtbreg.dcr'}
+{$R 'edtlstreg.dcr'}
+{$R 'EllipsLblReg.dcr'}
+{$R 'htmhireg.dcr'}
+{$R 'frmsreg.dcr'}
+{$R 'fsreg.dcr'}
+{$R 'GradientLblReg.dcr'}
+{$R 'Hilireg.dcr'}
+{$R 'htmbureg.dcr'}
+{$R 'htmcoreg.dcr'}
+{$R 'htmldlgr.dcr'}
+{$R 'htmlchklireg.dcr'}
+{$R 'HTMLCreditReg.dcr'}
+{$R 'htmstreg.dcr'}
+{$R 'htmlireg.dcr'}
+{$R 'HTMLPopupReg.dcr'}
+{$R 'HTMLTLREG.dcr'}
+{$R 'htmltvr.dcr'}
+{$R 'htmstbr.dcr'}
+{$R 'INIInspectorBarReg.dcr'}
+{$R 'lfreg.dcr'}
+{$R 'InspectorBarReg.dcr'}
+{$R 'llreg.dcr'}
+{$R 'pdlgreg.dcr'}
+{$R 'PictureContainerReg.dcr'}
+{$R 'SHADER.dcr'}
+{$R 'Tilebmp.dcr'}
+{$R 'slstreg.dcr'}
+{$R 'vCalReg.dcr'}
+{$R 'tlreg.dcr'}
+{$R 'ToolPanelsReg.dcr'}
+{$R 'TodoListReg.dcr'}
+{$R 'DBTodoListReg.dcr'}
+{$R 'TMSGraphicsReg.dcr'}
+{$ALIGN 0}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  Borland.Delphi,
+  Borland.Vcl,
+  Borland.VclDbCtrls,
+  Borland.VclBdeRtl,
+  Borland.VclAdoDb,
+  Borland.VclX;
+
+contains
+  asgreg in 'asgreg.pas',
+  AdvGrid in 'AdvGrid.pas',
+  AdvDateTimePicker in 'AdvDateTimePicker.pas',
+  Advobj in 'Advobj.pas',
+  advmbs in 'advmbs.pas',
+  advmcshs in 'advmcshs.pas',
+  Advmcss in 'Advmcss.pas',
+  AdvMemo in 'AdvMemo.pas',
+  AdvMemoReg in 'AdvMemoReg.pas',
+  advmes in 'advmes.pas',
+  advmpls in 'advmpls.pas',
+  advmps in 'advmps.pas',
+  advmpys in 'advmpys.pas',
+  AdvmSQLs in 'AdvmSQLs.pas',
+  advmws in 'advmws.pas',
+  AdvNavBar in 'AdvNavBar.pas',
+  AdvNavBarReg in 'AdvNavBarReg.pas',
+  asgcombo in 'asgcombo.pas',
+  asgspin in 'asgspin.pas',
+  asgcheck in 'asgcheck.pas',
+  DBAdvMemo in 'DBAdvMemo.pas',
+  AdvCodeList in 'AdvCodeList.pas',
+  AdvCodeListDD in 'AdvCodeListDD.pas',
+  AdvCodeHint in 'AdvCodeHint.pas',
+  AdvCodeListLib in 'AdvCodeListLib.pas',
+  AdvGridWorkbook in 'AdvGridWorkbook.pas',
+  frmctrllink in 'frmctrllink.pas',
+  AsgHTML in 'AsgHTML.pas',
+  asgprint in 'asgprint.pas',
+  advspin in 'advspin.pas',
+  asgprev in 'asgprev.pas',
+  AdvColumnSetter in 'AdvColumnSetter.pas',
+  AsgFindDialog in 'AsgFindDialog.pas',
+  AsgReplaceDialog in 'AsgReplaceDialog.pas',
+  AsgImport in 'AsgImport.pas',
+  AsgMemo in 'AsgMemo.pas',
+  asgdd in 'asgdd.pas',
+  BaseGrid in 'BaseGrid.pas',
+  AsgHTMLE in 'AsgHTMLE.pas',
+  PictureContainer in 'PictureContainer.pas',
+  asgedit in 'asgedit.pas',
+  advutil in 'advutil.pas',
+  planreg in 'planreg.pas',
+  dbplanreg in 'dbplanreg.pas',
+  Planner in 'Planner.pas' {Planner.TAlarmMessage: Planner.TPlannerAlarmHandler},
+  PlanUtil in 'PlanUtil.pas',
+  PlannerWaitList in 'PlannerWaitList.pas',
+  plannermonthview in 'plannermonthview.pas',
+  plannermonthviewreg in 'plannermonthviewreg.pas',
+  dbplannermonthview in 'dbplannermonthview.pas',
+  DBPlanner in 'DBPlanner.pas',
+  DBPlannerMonthViewReg in 'DBPlannerMonthViewReg.pas',
+  PlanPeriodEdit in 'PlanPeriodEdit.pas',
+  PlanDraw in 'PlanDraw.pas',
+  PlanSimpleEdit in 'PlanSimpleEdit.pas',
+  PlanItemEdit in 'PlanItemEdit.pas',
+  PlanCombo in 'PlanCombo.pas',
+  PlanHTML in 'PlanHTML.pas',
+  plancheck in 'plancheck.pas',
+  planobj in 'planobj.pas',
+  PlannerCalReg in 'PlannerCalReg.pas',
+  PlannerMaskDatePicker in 'PlannerMaskDatePicker.pas',
+  AdvEdBtn in 'AdvEdBtn.pas',
+  AdvEdit in 'AdvEdit.pas',
+  AdvMEdBtn in 'AdvMEdBtn.pas',
+  PlannerDatePicker in 'PlannerDatePicker.pas',
+  adveddd in 'adveddd.pas',
+  PlannerCal in 'PlannerCal.pas',
+  advpnlreg in 'advpnlreg.pas',
+  advpanel in 'advpanel.pas',
+  collistb in 'collistb.pas',
+  collireg in 'collireg.pas',
+  lureg in 'lureg.pas',
+  Lucombo in 'Lucombo.pas',
+  acreg in 'acreg.pas',
+  AdvCombo in 'AdvCombo.pas',
+  aereg in 'aereg.pas',
+  dbaereg in 'dbaereg.pas',
+  DBAdvEd in 'DBAdvEd.pas',
+  DBAdvEdBtn in 'DBAdvEdBtn.pas',
+  DBAdvEdBtnReg in 'DBAdvEdBtnReg.pas',
+  DBAdvSp in 'DBAdvSp.pas',
+  dbasreg in 'dbasreg.pas',
+  asreg in 'asreg.pas',
+  advedbr in 'advedbr.pas',
+  asgcreg in 'asgcreg.pas',
+  AdvCGrid in 'AdvCGrid.pas',
+  paramlabel in 'paramlabel.pas',
+  paramlabreg in 'paramlabreg.pas',
+  paramlistbox in 'paramlistbox.pas',
+  paramlstreg in 'paramlstreg.pas',
+  paramtreeview in 'paramtreeview.pas',
+  paramtreeviewreg in 'paramtreeviewreg.pas',
+  paramchklist in 'paramchklist.pas',
+  paramchklreg in 'paramchklreg.pas',
+  ParHTML in 'ParHTML.pas',
+  Spin in 'Spin.pas',
+  AdvFileNameEdit in 'AdvFileNameEdit.pas',
+  AdvAlertWindowReg in 'AdvAlertWindowReg.pas',
+  AdvAlertWindow in 'AdvAlertWindow.pas',
+  AdvGradient in 'AdvGradient.pas',
+  advluedr in 'advluedr.pas',
+  advlued in 'advlued.pas',
+  AdvMoneyEditReg in 'AdvMoneyEditReg.pas',
+  AdvMoneyEdit in 'AdvMoneyEdit.pas',
+  AdvPageControlreg in 'AdvPageControlreg.pas',
+  AdvPageControl in 'AdvPageControl.pas',
+  AdvTabSetReg in 'AdvTabSetReg.pas',
+  AdvTabSet in 'AdvTabSet.pas',
+  AdvProgressBarReg in 'AdvProgressBarReg.pas',
+  AdvProgr in 'AdvProgr.pas',
+  AdvProgressBar in 'AdvProgressBar.pas',
+  advqryr in 'advqryr.pas',
+  AdvQueryDialog in 'AdvQueryDialog.pas',
+  advtoolbtn in 'advtoolbtn.pas',
+  AdvTreeComboBoxReg in 'AdvTreeComboBoxReg.pas',
+  AdvTreeComboBox in 'AdvTreeComboBox.pas',
+  apreg in 'apreg.pas',
+  AsgLinks in 'AsgLinks.pas' {AsgLinks.TAdvEditEditLink: AdvGrid.TEditLink},
+  atbreg in 'atbreg.pas',
+  BtnListB in 'BtnListB.pas',
+  btnlireg in 'btnlireg.pas',
+  calpreg in 'calpreg.pas',
+  CalComp in 'CalComp.pas',
+  calcreg in 'calcreg.pas',
+  CalPanel in 'CalPanel.pas',
+  Moneycal in 'Moneycal.pas',
+  imgpickr in 'imgpickr.pas',
+  ImagePicker in 'ImagePicker.pas',
+  ColorCombo in 'ColorCombo.pas',
+  clistedr in 'clistedr.pas',
+  Clisted in 'Clisted.pas',
+  MoneyEdr in 'MoneyEdr.pas',
+  moneyedit in 'moneyedit.pas',
+  colcoreg in 'colcoreg.pas',
+  colcombo in 'colcombo.pas',
+  datelbl in 'datelbl.pas',
+  dbadvler in 'dbadvler.pas',
+  dbadvle in 'dbadvle.pas',
+  dbmnyed in 'dbmnyed.pas',
+  dbhtmlab in 'dbhtmlab.pas',
+  dbhtmlar in 'dbhtmlar.pas',
+  DBHTMLBtns in 'DBHTMLBtns.pas',
+  DBHTMLBtnsReg in 'DBHTMLBtnsReg.pas',
+  dblucmbr in 'dblucmbr.pas',
+  dblucomb in 'dblucomb.pas',
+  dbmereg in 'dbmereg.pas',
+  htmlbtns in 'htmlbtns.pas',
+  DBPlannerDatePicker in 'DBPlannerDatePicker.pas',
+  DBPlannerCal in 'DBPlannerCal.pas',
+  DBPlannerCalReg in 'DBPlannerCalReg.pas',
+  htmlareg in 'htmlareg.pas',
+  htmlabel in 'htmlabel.pas',
+  flctrlr in 'flctrlr.pas',
+  EditBtn in 'EditBtn.pas',
+  editlist in 'editlist.pas',
+  edtbreg in 'edtbreg.pas',
+  edtlstreg in 'edtlstreg.pas',
+  EllipsLabel in 'EllipsLabel.pas',
+  EllipsLblReg in 'EllipsLblReg.pas',
+  FlCtrlEx in 'FlCtrlEx.pas',
+  FormSize in 'FormSize.pas',
+  htmhireg in 'htmhireg.pas',
+  frmsreg in 'frmsreg.pas',
+  fsreg in 'fsreg.pas',
+  GradientLabel in 'GradientLabel.pas',
+  GradientLblReg in 'GradientLblReg.pas',
+  Hilireg in 'Hilireg.pas',
+  HINTLIST in 'HINTLIST.PAS',
+  htmbureg in 'htmbureg.pas',
+  htmcombo in 'htmcombo.pas',
+  htmcoreg in 'htmcoreg.pas',
+  FRMSHAPE in 'FRMSHAPE.PAS',
+  htmlhint in 'htmlhint.pas',
+  htmldlgr in 'htmldlgr.pas',
+  htmlchklireg in 'htmlchklireg.pas',
+  HtmlChkList in 'HtmlChkList.pas',
+  HTMLCredit in 'HTMLCredit.pas',
+  HTMLCreditReg in 'HTMLCreditReg.pas',
+  HTMLDialog in 'HTMLDialog.pas',
+  htmstreg in 'htmstreg.pas',
+  htmlireg in 'htmlireg.pas',
+  HTMListb in 'HTMListb.pas',
+  HTMLPopup in 'HTMLPopup.pas',
+  HTMLPopupReg in 'HTMLPopupReg.pas',
+  HTMLStatusBar in 'HTMLStatusBar.pas',
+  htmltext in 'htmltext.pas',
+  HTMLTLREG in 'HTMLTLREG.pas',
+  HTMLTreeList in 'HTMLTreeList.pas',
+  htmltv in 'htmltv.pas',
+  htmltvr in 'htmltvr.pas',
+  htmstbr in 'htmstbr.pas',
+  InspDD in 'InspDD.pas',
+  INIInspectorBar in 'INIInspectorBar.pas',
+  INIInspectorBarReg in 'INIInspectorBarReg.pas',
+  lfreg in 'lfreg.pas',
+  inspectorbar in 'inspectorbar.pas',
+  InspectorBarReg in 'InspectorBarReg.pas',
+  InspEdits in 'InspEdits.pas',
+  InspImg in 'InspImg.pas',
+  InspLinks in 'InspLinks.pas',
+  layeredform in 'layeredform.pas',
+  llreg in 'llreg.pas',
+  LISTLINK in 'LISTLINK.PAS',
+  maskedex in 'maskedex.pas',
+  mskreg in 'mskreg.pas',
+  PickDlg in 'PickDlg.pas',
+  pdlgreg in 'pdlgreg.pas',
+  PictureContainerReg in 'PictureContainerReg.pas',
+  SHADER in 'SHADER.PAS',
+  Tilebmp in 'Tilebmp.pas',
+  slstbox in 'slstbox.pas',
+  slstreg in 'slstreg.pas',
+  vCalReg in 'vCalReg.pas',
+  tlreg in 'tlreg.pas',
+  ToolPanels in 'ToolPanels.pas',
+  ToolPanelsReg in 'ToolPanelsReg.pas',
+  treelist in 'treelist.pas',
+  vCal in 'vCal.pas',
+  TodoListReg in 'TodoListReg.pas',
+  TodoList in 'TodoList.pas',
+  DBTodoListReg in 'DBTodoListReg.pas',
+  DBTodoList in 'DBTodoList.pas',
+  ccedlink in 'ccedlink.pas' {ccedlink.TColumnComboEditLink: AdvGrid.TEditLink},
+  PlanRecurrEdit in 'PlanRecurrEdit.pas',
+  PlanRecurr in 'PlanRecurr.pas',
+  AdvMemoStylerManager in 'AdvMemoStylerManager.pas',
+  AdvmINIs in 'AdvmINIs.pas',
+  Advmxml in 'Advmxml.pas',
+  AdvSelectors in 'AdvSelectors.pas',
+  AdvFontCombo in 'AdvFontCombo.pas',
+  TMSGraphicsReg in 'TMSGraphicsReg.pas',
+  PlannerDBMaskDatePicker in 'PlannerDBMaskDatePicker.pas',
+  PlannerDBDatePicker in 'PlannerDBDatePicker.pas',
+  DBAdvGridReg in 'DBAdvGridReg.pas',
+  DBAdvGrid in 'DBAdvGrid.pas',
+  AdvGridRtf in 'AdvGridRtf.pas',
+  RTFEngine in 'RTFEngine.pas',
+  advgridcsvpager in 'advgridcsvpager.pas',
+  planneractions in 'planneractions.pas',
+  advmphp in 'advmphp.pas',
+  advstyleif in 'advstyleif.pas';
+
+[assembly: AssemblyDescription('TMS VCL.NET Components')]
+[assembly: AssemblyConfiguration('')]
+[assembly: AssemblyCompany('tmssoftware.com bvba')]
+[assembly: AssemblyProduct('TMS Component Pack Pro')]
+[assembly: AssemblyCopyright('© 2004 tmssoftware.com')]
+[assembly: AssemblyTrademark('tm tmssoftware.com')]
+[assembly: AssemblyCulture('')]
+
+
+// The Delphi compiler controls the AssemblyTitleAttribute via the ExeDescription.
+// You can set this in the IDE via the Project Options.
+// Manually setting the AssemblyTitle attribute below will override the IDE
+// setting.
+[assembly: AssemblyTitle('TMS Components for VCL.NET')]
+
+
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion('3.3.0.0')]
+
+//
+// In order to sign your assembly you must specify a key to use. Refer to the 
+// Microsoft .NET Framework documentation for more information on assembly signing.
+//
+// Use the attributes below to control which key is used for signing. 
+//
+// Notes: 
+//   (*) If no key is specified, the assembly is not signed.
+//   (*) KeyName refers to a key that has been installed in the Crypto Service
+//       Provider (CSP) on your machine. KeyFile refers to a file which contains
+//       a key.
+//   (*) If the KeyFile and the KeyName values are both specified, the 
+//       following processing occurs:
+//       (1) If the KeyName can be found in the CSP, that key is used.
+//       (2) If the KeyName does not exist and the KeyFile does exist, the key 
+//           in the KeyFile is installed into the CSP and used.
+//   (*) In order to create a KeyFile, you can use the sn.exe (Strong Name) utility.
+//       When specifying the KeyFile, the location of the KeyFile should be
+//       relative to the project output directory. For example, if your KeyFile is
+//       located in the project directory, you would specify the AssemblyKeyFile 
+//       attribute as [assembly: AssemblyKeyFile('mykey.snk')], provided your output
+//       directory is the project directory (the default).
+//   (*) Delay Signing is an advanced option - see the Microsoft .NET Framework
+//       documentation for more information on this.
+//
+[assembly: AssemblyDelaySign(false)]
+[assembly: AssemblyKeyFile('')]
+[assembly: AssemblyKeyName('')]
+end.

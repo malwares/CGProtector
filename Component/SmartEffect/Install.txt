@@ -1,0 +1,18 @@
+Copy package's files from sepackages folder to folder with sources.
+
+For Delphi 5, 6, 7, 2005, 2006-2010:
+
+ - open sed*.dpk file
+ - install package
+
+For C++Builder 5, 6:
+
+ - open secb*.bpk file
+ - install package
+
+For C++Builder 2006[7,9,10]:
+
+ - open secb2006[7,9,10].bdsproj file
+ - install package
+
+

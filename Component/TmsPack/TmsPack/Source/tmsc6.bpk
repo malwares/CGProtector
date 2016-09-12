@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="tmsc6.bpl"/>
+    <OBJFILES value="tmsc6.obj Htmlireg.obj Htmbureg.obj Htmcoreg.obj Htmhireg.obj Htmlareg.obj 
+      Hilireg.obj Htmltvr.obj Apreg.obj Alvreg.obj Asgcreg.obj Asgreg.obj 
+      Cabr.obj Clistedr.obj DbAdvGridreg.obj Edtbreg.obj Flctrlr.obj Llreg.obj 
+      Mskreg.obj Pdlgreg.obj Planreg.obj Propscrl.obj Rtflreg.obj Scrlreg.obj 
+      Slstreg.obj Anireg.obj Tilebmp.obj Olnkreg.obj asreg.obj Tlreg.obj 
+      dbasreg.obj dbaereg.obj htmstbr.obj htmstreg.obj colcoreg.obj dbhtmlar.obj 
+      dblucmbr.obj paramlabreg.obj paramchklreg.obj paramlstreg.obj datelbl.obj 
+      dbadvle.obj AdvEdBtn.obj advlued.obj advluedr.obj advedbr.obj dbadvler.obj 
+      wallpreg.obj collireg.obj MoneyEdr.obj advpnlreg.obj Wupdreg.obj 
+      WDATREG.obj webcreg.obj dbmereg.obj WebImgR.obj HTMLTLREG.obj advpicr.obj 
+      WebPostr.obj htmldlgr.obj advqryr.obj dbplanreg.obj vCalReg.obj 
+      imgpickr.obj edtlstreg.obj thumbreg.obj DBPlannerCalReg.obj 
+      PictureContainerReg.obj PlannerCalReg.obj acreg.obj aereg.obj lureg.obj 
+      parlreg.obj SHADER.obj paramtreeviewreg.obj dbslstreg.obj 
+      AstaPatchUtil.obj DBAdvEdBtnReg.obj DBTodoListReg.obj TodoListReg.obj 
+      WinXP.obj HTMLPopupReg.obj DBInspectorBarReg.obj InspectorBarReg.obj 
+      INIInspectorBarReg.obj RTTIInspectorBarReg.obj btnlireg.obj atbreg.obj 
+      dbanreg.obj DBHTMLBtnsReg.obj WebConnectReg.obj uhtmlareg.obj 
+      uhtmcoreg.obj uhtmlireg.obj AdvShaperReg.obj AdvMemoReg.obj 
+      AdvMoneyEditReg.obj InspLinks.obj AdvDBLookupComboBoxReg.obj 
+      GradientLblReg.obj AdvTreeComboBoxReg.obj HTMLCreditReg.obj 
+      ToolPanelsReg.obj AdvProgressBarReg.obj AdvPageControlreg.obj 
+      AdvTabSetReg.obj AdvNavBarReg.obj AdvAlertWindowReg.obj 
+      PlannerMonthViewReg.obj DBPlannerMonthViewReg.obj AdvMenuRegister.obj 
+      TMSGraphicsReg.obj htmlchklireg.obj AdvCardListReg.obj piclistreg.obj 
+      DBAdvCardListReg.obj AdvToolBarReg.obj folderdialogreg.obj AdvGridRtf.obj 
+      advcardlisteditlinks.obj advcardlistadveditlink.obj advoutlooklistreg.obj 
+      advofficehintreg.obj advglowbuttonreg.obj advappstyler.obj 
+      advofficepagerreg.obj AdvOfficeTabSetReg.obj AdvOfficeStatusBarReg.obj 
+      TMSOfficeGraphicsReg.obj advofficeimagereg.obj advshapebuttonreg.obj 
+      advpreviewmenureg.obj taskdialog.obj AdvCircularProgressReg.obj 
+      AdvGroupBoxReg.obj AdvOfficeButtonsReg.obj DBAdvOfficeButtonsReg.obj 
+      AdvScrollBoxReg.obj AdvSplitterReg.obj AdvWiiProgressBarReg.obj 
+      dbadvmoneyeditreg.obj AdvTrackBarReg.obj AdvTrackBar.obj 
+      DBAdvTrackBarReg.obj DBAdvTrackBar.obj AdvShape.obj AdvShapeReg.obj 
+      AdvGlassButtonReg.obj AtbXPVS.obj AdvStickyPopupMenuReg.obj 
+      AdvStickyPopupMenu.obj AdvDateTimePickerReg.obj AdvDateTimePicker.obj 
+      DBAdvGlowNavigatorReg.obj advdropdownreg.obj advdropdown.obj 
+      advtrackbardropdown.obj advcolorpickerdropdown.obj advcontroldropdown.obj 
+      advdetaildropdown.obj advmemodropdown.obj advmulticolumndropdown.obj 
+      advtimepickerdropdown.obj advtoolbar.obj advgdip.obj 
+      advcalculatordropdown.obj DBAdvTrackBarDropDown.obj 
+      DBAdvCalculatorDropDown.obj DBAdvColorPickerDropDown.obj 
+      DBAdvControlDropDown.obj DBAdvDetailDropDown.obj DBAdvDropDownReg.obj 
+      DBAdvImagePickerDropDown.obj DBAdvMemoDropDown.obj 
+      DBAdvMultiColumnDropDown.obj DBAdvTimePickerDropDown.obj 
+      DBAdvGDIPPicture.obj DBAdvPictureReg.obj DBAdvPicture.obj 
+      DBAdvGDIPPictureReg.obj AdvDBComboBox.obj AdvDBComboBoxReg.obj 
+      AdvGridDropDown.obj AdvGridDropDownReg.obj AdvCustomGridDropDown.obj"/>
+    <RESFILES value="TMSC6.res Htmlireg.dcr Htmbureg.dcr Htmcoreg.dcr Htmhireg.dcr Htmlareg.dcr 
+      Hilireg.dcr Htmltvr.dcr Alvreg.dcr Cabr.dcr Clistedr.dcr Edtbreg.dcr 
+      Llreg.dcr Pdlgreg.dcr Planreg.dcr Rtflreg.dcr Slstreg.dcr Anireg.dcr 
+      Tilebmp.dcr Olnkreg.dcr asreg.dcr Tlreg.dcr dbasreg.dcr dbaereg.dcr 
+      htmstbr.dcr htmstreg.dcr colcoreg.dcr dbhtmlar.dcr dblucmbr.dcr 
+      paramlabreg.dcr paramchklreg.dcr paramlstreg.dcr datelbl.dcr advluedr.dcr 
+      advedbr.dcr dbadvler.dcr wallpreg.dcr collireg.dcr MoneyEdr.dcr 
+      advpnlreg.dcr Wupdreg.dcr WDATREG.dcr webcreg.dcr dbmereg.dcr WebImgR.dcr 
+      HTMLTLREG.dcr advpicr.dcr WebPostr.dcr htmldlgr.dcr advqryr.dcr 
+      dbplanreg.dcr vCalReg.dcr imgpickr.dcr edtlstreg.dcr thumbreg.dcr 
+      DBPlannerCalReg.dcr PictureContainerReg.dcr PlannerCalReg.dcr acreg.dcr 
+      aereg.dcr lureg.dcr parlreg.dcr SHADER.dcr paramtreeviewreg.dcr 
+      dbslstreg.dcr AstaPatchUtil.dcr DBAdvEdBtnReg.dcr DBTodoListReg.dcr 
+      TodoListReg.dcr WinXP.dcr HTMLPopupReg.dcr DBInspectorBarReg.dcr 
+      InspectorBarReg.dcr INIInspectorBarReg.dcr RTTIInspectorBarReg.dcr 
+      btnlireg.dcr atbreg.dcr dbanreg.dcr DBHTMLBtnsReg.dcr WebConnectReg.dcr 
+      uhtmlareg.dcr uhtmcoreg.dcr uhtmlireg.dcr AdvShaperReg.dcr AdvMemoReg.dcr 
+      AdvMoneyEditReg.dcr AdvDBLookupComboBoxReg.dcr GradientLblReg.dcr 
+      HTMLCreditReg.dcr ToolPanelsReg.dcr AdvProgressBarReg.dcr 
+      AdvPageControlreg.dcr AdvTabSetReg.dcr AdvNavBarReg.dcr 
+      AdvAlertWindowReg.dcr PlannerMonthViewReg.dcr AdvMenuRegister.dcr 
+      TMSGraphicsReg.dcr htmlchklireg.dcr folderdialogreg.dcr 
+      advoutlooklistreg.dcr advglowbuttonreg.dcr advappstyler.dcr 
+      AdvOfficeTabSetReg.dcr AdvOfficeStatusBarReg.dcr TMSOfficeGraphicsReg.dcr 
+      advofficeimagereg.dcr AdvCircularProgressReg.dcr AdvGroupBoxReg.dcr 
+      AdvOfficeButtonsReg.dcr AdvScrollBoxReg.dcr AdvSplitterReg.dcr 
+      AdvWiiProgressBarReg.dcr AdvShapeReg.dcr AdvGlassButtonReg.dcr 
+      AdvDateTimePickerReg.dcr DBAdvGlowNavigatorReg.dcr advdropdownreg.dcr 
+      AdvDBComboBoxReg.dcr"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="odbc32.lib odbccp32.lib"/>
+    <LIBRARIES value="bcb2kaxserver.lib indy.lib dbxcds.lib dclocx.lib soaprtl.lib nmfast.lib 
+      dbexpress.lib inetdbxpress.lib inetdbbde.lib dsnapcon.lib dsnapcrba.lib 
+      visualdbclx.lib teeqr.lib dss.lib tee.lib teedb.lib teeui.lib qrpt.lib 
+      bdecds.lib cds.lib ibxpress.lib adortl.lib vcldbx.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib dbrtl.lib vcldb.lib bdertl.lib vcldbx.lib bcbsmp.lib 
+      VclSmp.lib adortl.lib ibxpress.lib cds.lib bdecds.lib qrpt.lib teeui.lib 
+      teedb.lib tee.lib dss.lib teeqr.lib visualdbclx.lib dsnapcrba.lib 
+      dsnapcon.lib inetdbbde.lib inetdbxpress.lib dbexpress.lib nmfast.lib 
+      bcbie.lib soaprtl.lib dclocx.lib dbxcds.lib indy.lib bcb2kaxserver.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi dbrtl.bpi vcldb.bpi bcbsmp.bpi bcbie.bpi 
+      vcljpg.bpi VclSmp.bpi bdertl.bpi designide.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="tmsc6.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\IntraWeb 10.0\LibCB6&quot;;$(BCB)\Pack;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=c:\builder6\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- 
+      -c -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;TMS Component Pack&quot; -aa -Tpp -x -Gn -Gl -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="tmsc6.cpp" FORMNAME="" UNITNAME="TMSC6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TMSC6.res" FORMNAME="" UNITNAME="TMSC6.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmlireg.pas" FORMNAME="" UNITNAME="Htmlireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmlireg.dcr" FORMNAME="" UNITNAME="Htmlireg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmbureg.pas" FORMNAME="" UNITNAME="Htmbureg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmbureg.dcr" FORMNAME="" UNITNAME="Htmbureg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmcoreg.pas" FORMNAME="" UNITNAME="Htmcoreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmcoreg.dcr" FORMNAME="" UNITNAME="Htmcoreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmhireg.pas" FORMNAME="" UNITNAME="Htmhireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmhireg.dcr" FORMNAME="" UNITNAME="Htmhireg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmlareg.pas" FORMNAME="" UNITNAME="Htmlareg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmlareg.dcr" FORMNAME="" UNITNAME="Htmlareg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Hilireg.pas" FORMNAME="" UNITNAME="Hilireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Hilireg.dcr" FORMNAME="" UNITNAME="Hilireg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmltvr.pas" FORMNAME="" UNITNAME="Htmltvr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Htmltvr.dcr" FORMNAME="" UNITNAME="Htmltvr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Apreg.pas" FORMNAME="" UNITNAME="Apreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Alvreg.pas" FORMNAME="" UNITNAME="Alvreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Alvreg.dcr" FORMNAME="" UNITNAME="Alvreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Asgcreg.pas" FORMNAME="" UNITNAME="Asgcreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Asgreg.pas" FORMNAME="" UNITNAME="Asgreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Cabr.pas" FORMNAME="" UNITNAME="Cabr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Cabr.dcr" FORMNAME="" UNITNAME="Cabr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Clistedr.pas" FORMNAME="" UNITNAME="Clistedr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Clistedr.dcr" FORMNAME="" UNITNAME="Clistedr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DbAdvGridreg.pas" FORMNAME="" UNITNAME="DbAdvGridreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edtbreg.pas" FORMNAME="" UNITNAME="Edtbreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edtbreg.dcr" FORMNAME="" UNITNAME="Edtbreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Flctrlr.pas" FORMNAME="" UNITNAME="Flctrlr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Llreg.pas" FORMNAME="" UNITNAME="Llreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Llreg.dcr" FORMNAME="" UNITNAME="Llreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Mskreg.pas" FORMNAME="" UNITNAME="Mskreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Pdlgreg.pas" FORMNAME="" UNITNAME="Pdlgreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Pdlgreg.dcr" FORMNAME="" UNITNAME="Pdlgreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Planreg.pas" FORMNAME="" UNITNAME="Planreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Planreg.dcr" FORMNAME="" UNITNAME="Planreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Propscrl.pas" FORMNAME="" UNITNAME="Propscrl" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Rtflreg.pas" FORMNAME="" UNITNAME="Rtflreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Rtflreg.dcr" FORMNAME="" UNITNAME="Rtflreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Scrlreg.pas" FORMNAME="" UNITNAME="Scrlreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Slstreg.pas" FORMNAME="" UNITNAME="Slstreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Slstreg.dcr" FORMNAME="" UNITNAME="Slstreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Anireg.pas" FORMNAME="" UNITNAME="Anireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Anireg.dcr" FORMNAME="" UNITNAME="Anireg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tilebmp.pas" FORMNAME="" UNITNAME="Tilebmp" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tilebmp.dcr" FORMNAME="" UNITNAME="Tilebmp" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Olnkreg.pas" FORMNAME="" UNITNAME="Olnkreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Olnkreg.dcr" FORMNAME="" UNITNAME="Olnkreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="odbc32.lib" FORMNAME="" UNITNAME="odbc32" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="odbccp32.lib" FORMNAME="" UNITNAME="odbccp32" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="asreg.pas" FORMNAME="" UNITNAME="asreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="asreg.dcr" FORMNAME="" UNITNAME="asreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tlreg.pas" FORMNAME="" UNITNAME="Tlreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tlreg.dcr" FORMNAME="" UNITNAME="Tlreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbasreg.pas" FORMNAME="" UNITNAME="dbasreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbasreg.dcr" FORMNAME="" UNITNAME="dbasreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbaereg.pas" FORMNAME="" UNITNAME="dbaereg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbaereg.dcr" FORMNAME="" UNITNAME="dbaereg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmstbr.pas" FORMNAME="" UNITNAME="htmstbr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmstbr.dcr" FORMNAME="" UNITNAME="htmstbr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmstreg.pas" FORMNAME="" UNITNAME="htmstreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmstreg.dcr" FORMNAME="" UNITNAME="htmstreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="colcoreg.pas" FORMNAME="" UNITNAME="colcoreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="colcoreg.dcr" FORMNAME="" UNITNAME="colcoreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbhtmlar.pas" FORMNAME="" UNITNAME="dbhtmlar" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbhtmlar.dcr" FORMNAME="" UNITNAME="dbhtmlar" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dblucmbr.pas" FORMNAME="" UNITNAME="dblucmbr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dblucmbr.dcr" FORMNAME="" UNITNAME="dblucmbr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramlabreg.pas" FORMNAME="" UNITNAME="paramlabreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramlabreg.dcr" FORMNAME="" UNITNAME="paramlabreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramchklreg.pas" FORMNAME="" UNITNAME="paramchklreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramchklreg.dcr" FORMNAME="" UNITNAME="paramchklreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramlstreg.pas" FORMNAME="" UNITNAME="paramlstreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramlstreg.dcr" FORMNAME="" UNITNAME="paramlstreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="datelbl.pas" FORMNAME="" UNITNAME="datelbl" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="datelbl.dcr" FORMNAME="" UNITNAME="datelbl" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbadvle.pas" FORMNAME="" UNITNAME="dbadvle" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvEdBtn.pas" FORMNAME="" UNITNAME="AdvEdBtn" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advlued.pas" FORMNAME="" UNITNAME="advlued" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advluedr.pas" FORMNAME="" UNITNAME="advluedr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advluedr.dcr" FORMNAME="" UNITNAME="advluedr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advedbr.pas" FORMNAME="" UNITNAME="advedbr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advedbr.dcr" FORMNAME="" UNITNAME="advedbr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbadvler.pas" FORMNAME="" UNITNAME="dbadvler" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbadvler.dcr" FORMNAME="" UNITNAME="dbadvler" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="wallpreg.pas" FORMNAME="" UNITNAME="wallpreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="wallpreg.dcr" FORMNAME="" UNITNAME="wallpreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="collireg.pas" FORMNAME="" UNITNAME="collireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="collireg.dcr" FORMNAME="" UNITNAME="collireg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MoneyEdr.pas" FORMNAME="" UNITNAME="MoneyEdr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MoneyEdr.dcr" FORMNAME="" UNITNAME="MoneyEdr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advpnlreg.pas" FORMNAME="" UNITNAME="advpnlreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advpnlreg.dcr" FORMNAME="" UNITNAME="advpnlreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Wupdreg.pas" FORMNAME="" UNITNAME="Wupdreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Wupdreg.dcr" FORMNAME="" UNITNAME="Wupdreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WDATREG.PAS" FORMNAME="" UNITNAME="WDATREG" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WDATREG.dcr" FORMNAME="" UNITNAME="WDATREG" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="webcreg.pas" FORMNAME="" UNITNAME="webcreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="webcreg.dcr" FORMNAME="" UNITNAME="webcreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbmereg.pas" FORMNAME="" UNITNAME="dbmereg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbmereg.dcr" FORMNAME="" UNITNAME="dbmereg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebImgR.pas" FORMNAME="" UNITNAME="WebImgR" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebImgR.dcr" FORMNAME="" UNITNAME="WebImgR" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HTMLTLREG.pas" FORMNAME="" UNITNAME="HTMLTLREG" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HTMLTLREG.dcr" FORMNAME="" UNITNAME="HTMLTLREG" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advpicr.pas" FORMNAME="" UNITNAME="advpicr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advpicr.dcr" FORMNAME="" UNITNAME="advpicr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebPostr.pas" FORMNAME="" UNITNAME="WebPostr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebPostr.dcr" FORMNAME="" UNITNAME="WebPostr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmldlgr.pas" FORMNAME="" UNITNAME="htmldlgr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmldlgr.dcr" FORMNAME="" UNITNAME="htmldlgr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advqryr.pas" FORMNAME="" UNITNAME="advqryr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advqryr.dcr" FORMNAME="" UNITNAME="advqryr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbplanreg.pas" FORMNAME="" UNITNAME="dbplanreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbplanreg.dcr" FORMNAME="" UNITNAME="dbplanreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vCalReg.pas" FORMNAME="" UNITNAME="vCalReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vCalReg.dcr" FORMNAME="" UNITNAME="vCalReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="imgpickr.pas" FORMNAME="" UNITNAME="imgpickr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="imgpickr.dcr" FORMNAME="" UNITNAME="imgpickr" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="edtlstreg.pas" FORMNAME="" UNITNAME="edtlstreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="edtlstreg.dcr" FORMNAME="" UNITNAME="edtlstreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="thumbreg.pas" FORMNAME="" UNITNAME="thumbreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="thumbreg.dcr" FORMNAME="" UNITNAME="thumbreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBPlannerCalReg.pas" FORMNAME="" UNITNAME="DBPlannerCalReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBPlannerCalReg.dcr" FORMNAME="" UNITNAME="DBPlannerCalReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PictureContainerReg.pas" FORMNAME="" UNITNAME="PictureContainerReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PictureContainerReg.dcr" FORMNAME="" UNITNAME="PictureContainerReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PlannerCalReg.pas" FORMNAME="" UNITNAME="PlannerCalReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PlannerCalReg.dcr" FORMNAME="" UNITNAME="PlannerCalReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="acreg.pas" FORMNAME="" UNITNAME="acreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="acreg.dcr" FORMNAME="" UNITNAME="acreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="aereg.pas" FORMNAME="" UNITNAME="aereg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="aereg.dcr" FORMNAME="" UNITNAME="aereg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="lureg.pas" FORMNAME="" UNITNAME="lureg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="lureg.dcr" FORMNAME="" UNITNAME="lureg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="parlreg.pas" FORMNAME="" UNITNAME="parlreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="parlreg.dcr" FORMNAME="" UNITNAME="parlreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SHADER.PAS" FORMNAME="" UNITNAME="SHADER" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SHADER.dcr" FORMNAME="" UNITNAME="SHADER" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramtreeviewreg.pas" FORMNAME="" UNITNAME="paramtreeviewreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="paramtreeviewreg.dcr" FORMNAME="" UNITNAME="paramtreeviewreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbslstreg.pas" FORMNAME="" UNITNAME="dbslstreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbslstreg.dcr" FORMNAME="" UNITNAME="dbslstreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AstaPatchUtil.pas" FORMNAME="" UNITNAME="AstaPatchUtil" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AstaPatchUtil.dcr" FORMNAME="" UNITNAME="AstaPatchUtil" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvEdBtnReg.pas" FORMNAME="" UNITNAME="DBAdvEdBtnReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvEdBtnReg.dcr" FORMNAME="" UNITNAME="DBAdvEdBtnReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBTodoListReg.pas" FORMNAME="" UNITNAME="DBTodoListReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBTodoListReg.dcr" FORMNAME="" UNITNAME="DBTodoListReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TodoListReg.pas" FORMNAME="" UNITNAME="TodoListReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TodoListReg.dcr" FORMNAME="" UNITNAME="TodoListReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WinXP.pas" FORMNAME="" UNITNAME="WinXP" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WinXP.dcr" FORMNAME="" UNITNAME="WinXP" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HTMLPopupReg.pas" FORMNAME="" UNITNAME="HTMLPopupReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HTMLPopupReg.dcr" FORMNAME="" UNITNAME="HTMLPopupReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBInspectorBarReg.pas" FORMNAME="" UNITNAME="DBInspectorBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBInspectorBarReg.dcr" FORMNAME="" UNITNAME="DBInspectorBarReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="InspectorBarReg.pas" FORMNAME="" UNITNAME="InspectorBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="InspectorBarReg.dcr" FORMNAME="" UNITNAME="InspectorBarReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="INIInspectorBarReg.pas" FORMNAME="" UNITNAME="INIInspectorBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="INIInspectorBarReg.dcr" FORMNAME="" UNITNAME="INIInspectorBarReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RTTIInspectorBarReg.pas" FORMNAME="" UNITNAME="RTTIInspectorBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RTTIInspectorBarReg.dcr" FORMNAME="" UNITNAME="RTTIInspectorBarReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="btnlireg.pas" FORMNAME="" UNITNAME="btnlireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="btnlireg.dcr" FORMNAME="" UNITNAME="btnlireg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="atbreg.pas" FORMNAME="" UNITNAME="atbreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="atbreg.dcr" FORMNAME="" UNITNAME="atbreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbanreg.pas" FORMNAME="" UNITNAME="dbanreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbanreg.dcr" FORMNAME="" UNITNAME="dbanreg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBHTMLBtnsReg.pas" FORMNAME="" UNITNAME="DBHTMLBtnsReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBHTMLBtnsReg.dcr" FORMNAME="" UNITNAME="DBHTMLBtnsReg" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\vcldb.bpi" FORMNAME="" UNITNAME="vcldb" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\bcbsmp.bpi" FORMNAME="" UNITNAME="bcbsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\bcbie.bpi" FORMNAME="" UNITNAME="bcbie" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebConnectReg.pas" FORMNAME="" UNITNAME="WebConnectReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebConnectReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcljpg.bpi" FORMNAME="" UNITNAME="vcljpg" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uhtmlareg.pas" FORMNAME="" UNITNAME="uhtmlareg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uhtmlareg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uhtmcoreg.pas" FORMNAME="" UNITNAME="uhtmcoreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uhtmcoreg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uhtmlireg.pas" FORMNAME="" UNITNAME="uhtmlireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uhtmlireg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvShaperReg.pas" FORMNAME="" UNITNAME="AdvShaperReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvShaperReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvMemoReg.pas" FORMNAME="" UNITNAME="AdvMemoReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvMemoReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvMoneyEditReg.pas" FORMNAME="" UNITNAME="AdvMoneyEditReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvMoneyEditReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="InspLinks.pas" FORMNAME="" UNITNAME="InspLinks" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDBLookupComboBoxReg.pas" FORMNAME="" UNITNAME="AdvDBLookupComboBoxReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDBLookupComboBoxReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="VclSmp.bpi" FORMNAME="" UNITNAME="VclSmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GradientLblReg.pas" FORMNAME="" UNITNAME="GradientLblReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GradientLblReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvTreeComboBoxReg.pas" FORMNAME="" UNITNAME="AdvTreeComboBoxReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HTMLCreditReg.pas" FORMNAME="" UNITNAME="HTMLCreditReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HTMLCreditReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ToolPanelsReg.pas" FORMNAME="" UNITNAME="ToolPanelsReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ToolPanelsReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvProgressBarReg.pas" FORMNAME="" UNITNAME="AdvProgressBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvProgressBarReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvPageControlreg.pas" FORMNAME="" UNITNAME="AdvPageControlReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvPageControlreg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvTabSetReg.pas" FORMNAME="" UNITNAME="AdvTabSetReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvTabSetReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvNavBarReg.pas" FORMNAME="" UNITNAME="AdvNavBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvNavBarReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvAlertWindowReg.pas" FORMNAME="" UNITNAME="AdvAlertWindowReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvAlertWindowReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PlannerMonthViewReg.pas" FORMNAME="" UNITNAME="PlannerMonthViewReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PlannerMonthViewReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBPlannerMonthViewReg.pas" FORMNAME="" UNITNAME="DBPlannerMonthViewReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvMenuRegister.pas" FORMNAME="" UNITNAME="AdvMenuRegister" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvMenuRegister.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TMSGraphicsReg.pas" FORMNAME="" UNITNAME="TMSGraphicsReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TMSGraphicsReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bdertl.bpi" FORMNAME="" UNITNAME="bdertl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmlchklireg.pas" FORMNAME="" UNITNAME="htmlchklireg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="htmlchklireg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvCardListReg.pas" FORMNAME="" UNITNAME="AdvCardListReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="piclistreg.pas" FORMNAME="" UNITNAME="piclistreg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvCardListReg.pas" FORMNAME="" UNITNAME="DBAdvCardListReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvToolBarReg.pas" FORMNAME="" UNITNAME="AdvToolBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="folderdialogreg.pas" FORMNAME="" UNITNAME="FolderdialogREG" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="folderdialogreg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvGridRtf.pas" FORMNAME="" UNITNAME="AdvGridRTF" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advcardlisteditlinks.pas" FORMNAME="" UNITNAME="AdvCardListEditLinks" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advcardlistadveditlink.pas" FORMNAME="" UNITNAME="AdvCardListAdvEditLink" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advoutlooklistreg.pas" FORMNAME="" UNITNAME="AdvOutlookListReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advoutlooklistreg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advofficehintreg.pas" FORMNAME="" UNITNAME="AdvOfficeHintReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="designide.bpi" FORMNAME="" UNITNAME="designide" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advglowbuttonreg.pas" FORMNAME="" UNITNAME="AdvGlowButtonReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advglowbuttonreg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advappstyler.pas" FORMNAME="" UNITNAME="AdvAppStyler" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advappstyler.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advofficepagerreg.pas" FORMNAME="" UNITNAME="AdvOfficePagerReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvOfficeTabSetReg.pas" FORMNAME="" UNITNAME="AdvOfficeTabSetReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvOfficeTabSetReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvOfficeStatusBarReg.pas" FORMNAME="" UNITNAME="AdvOfficeStatusBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvOfficeStatusBarReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TMSOfficeGraphicsReg.pas" FORMNAME="" UNITNAME="TMSOfficeGraphicsReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TMSOfficeGraphicsReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advofficeimagereg.pas" FORMNAME="" UNITNAME="AdvOfficeImageReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advofficeimagereg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advshapebuttonreg.pas" FORMNAME="" UNITNAME="AdvShapeButtonReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advpreviewmenureg.pas" FORMNAME="" UNITNAME="AdvPreviewMenuReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="taskdialog.pas" FORMNAME="" UNITNAME="TaskDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvCircularProgressReg.pas" FORMNAME="" UNITNAME="AdvCircularProgressReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvCircularProgressReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvGroupBoxReg.pas" FORMNAME="" UNITNAME="AdvGroupBoxReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvGroupBoxReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvOfficeButtonsReg.pas" FORMNAME="" UNITNAME="AdvOfficeButtonsReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvOfficeButtonsReg.pas" FORMNAME="" UNITNAME="DBAdvOfficeButtonsReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvOfficeButtonsReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvScrollBoxReg.pas" FORMNAME="" UNITNAME="AdvScrollBoxReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvScrollBoxReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvSplitterReg.pas" FORMNAME="" UNITNAME="AdvSplitterReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvSplitterReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvWiiProgressBarReg.pas" FORMNAME="" UNITNAME="AdvWiiProgressBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvWiiProgressBarReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbadvmoneyeditreg.pas" FORMNAME="" UNITNAME="DBAdvMoneyEditReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvTrackBarReg.pas" FORMNAME="" UNITNAME="AdvTrackBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvTrackBar.pas" FORMNAME="" UNITNAME="AdvTrackBar" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvTrackBarReg.pas" FORMNAME="" UNITNAME="DBAdvTrackBarReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvTrackBar.pas" FORMNAME="" UNITNAME="DBAdvTrackBar" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvShape.pas" FORMNAME="" UNITNAME="AdvShape" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvShapeReg.pas" FORMNAME="" UNITNAME="AdvShapeReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvShapeReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvGlassButtonReg.pas" FORMNAME="" UNITNAME="AdvGlassButtonReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvGlassButtonReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AtbXPVS.pas" FORMNAME="" UNITNAME="AtbXPVS" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvStickyPopupMenuReg.pas" FORMNAME="" UNITNAME="AdvStickyPopupMenuReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvStickyPopupMenu.pas" FORMNAME="" UNITNAME="AdvStickyPopupMenu" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDateTimePickerReg.pas" FORMNAME="" UNITNAME="AdvDateTimePickerReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDateTimePickerReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDateTimePicker.pas" FORMNAME="" UNITNAME="AdvDateTimePicker" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvGlowNavigatorReg.pas" FORMNAME="" UNITNAME="DBAdvGlowNavigatorReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvGlowNavigatorReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advdropdownreg.pas" FORMNAME="" UNITNAME="AdvDropDownReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advdropdownreg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advdropdown.pas" FORMNAME="" UNITNAME="AdvDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advtrackbardropdown.pas" FORMNAME="" UNITNAME="AdvTrackBarDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advcolorpickerdropdown.pas" FORMNAME="" UNITNAME="AdvColorPickerDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advcontroldropdown.pas" FORMNAME="" UNITNAME="AdvControlDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advdetaildropdown.pas" FORMNAME="" UNITNAME="AdvDetailDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advmemodropdown.pas" FORMNAME="" UNITNAME="AdvMemoDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advmulticolumndropdown.pas" FORMNAME="" UNITNAME="AdvMultiColumnDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advtimepickerdropdown.pas" FORMNAME="" UNITNAME="AdvTimePickerDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advtoolbar.pas" FORMNAME="" UNITNAME="AdvToolBar" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advgdip.pas" FORMNAME="" UNITNAME="AdvGDIP" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="advcalculatordropdown.pas" FORMNAME="" UNITNAME="AdvCalculatorDropdown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvTrackBarDropDown.pas" FORMNAME="" UNITNAME="DBAdvTrackBarDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvCalculatorDropDown.pas" FORMNAME="" UNITNAME="DBAdvCalculatorDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvColorPickerDropDown.pas" FORMNAME="" UNITNAME="DBAdvColorPickerDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvControlDropDown.pas" FORMNAME="" UNITNAME="DBAdvControlDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvDetailDropDown.pas" FORMNAME="" UNITNAME="DBAdvDetailDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvDropDownReg.pas" FORMNAME="" UNITNAME="DBAdvDropDownReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvImagePickerDropDown.pas" FORMNAME="" UNITNAME="DBAdvImagePickerDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvMemoDropDown.pas" FORMNAME="" UNITNAME="DBAdvMemoDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvMultiColumnDropDown.pas" FORMNAME="" UNITNAME="DBAdvMultiColumnDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvTimePickerDropDown.pas" FORMNAME="" UNITNAME="DBAdvTimePickerDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvGDIPPicture.pas" FORMNAME="" UNITNAME="DBAdvGDIPPicture" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvPictureReg.pas" FORMNAME="" UNITNAME="DBAdvPictureReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvPicture.pas" FORMNAME="" UNITNAME="DBAdvPicture" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBAdvGDIPPictureReg.pas" FORMNAME="" UNITNAME="DBAdvGDIPPictureReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDBComboBox.pas" FORMNAME="" UNITNAME="AdvDBComboBox" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDBComboBoxReg.pas" FORMNAME="" UNITNAME="AdvDBComboBoxReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvDBComboBoxReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvGridDropDown.pas" FORMNAME="" UNITNAME="AdvGridDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvGridDropDownReg.pas" FORMNAME="" UNITNAME="AdvCustomGridDropDownReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvCustomGridDropDown.pas" FORMNAME="" UNITNAME="AdvCustomGridDropDown" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2067
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=C:\Program Files\IntraWeb 10.0\LibCB6;$(BCB)\Pack;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files\IntraWeb 10.0\LibCB6;$(BCB)\Projects\Lib;$(BCB)\Pack;$(BCB)\lib\obj;$(BCB)\lib
+Item2=C:\Program Files\IntraWeb 10.0\LibCB6;C:\Program Files\Intraweb 9.0\LibCB6;C:\Program Files\Intraweb 8.0\LibCB6;C:\Program Files\IntraWeb for CBuilder\LibCB6;C:\Program Files\IntraWeb\CBuilder\LibCB6;$(BCB)\Projects\Lib;$(BCB)\Pack;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\Program Files\IntraWeb for CBuilder\LibCB6;C:\Program Files\IntraWeb\CBuilder\LibCB6;$(BCB)\Projects\Lib;$(BCB)\Pack;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="tmsc5.bpl"/>
+    <OBJFILES value="Htmlireg.obj Htmbureg.obj Htmcoreg.obj Htmhireg.obj Htmlareg.obj 
+      Hilireg.obj Htmltvr.obj Apreg.obj Alvreg.obj Asgcreg.obj Asgreg.obj 
+      Cabr.obj Clistedr.obj dbadvgridreg.obj Edtbreg.obj Flctrlr.obj Llreg.obj 
+      Mskreg.obj Pdlgreg.obj Planreg.obj Propscrl.obj Rtflreg.obj Scrlreg.obj 
+      Slstreg.obj Anireg.obj Tilebmp.obj Olnkreg.obj asreg.obj Tlreg.obj 
+      dbasreg.obj dbaereg.obj htmstbr.obj htmstreg.obj colcoreg.obj dbhtmlar.obj 
+      dblucmbr.obj paramlabreg.obj paramchklreg.obj paramlstreg.obj datelbl.obj 
+      dbadvle.obj AdvEdBtn.obj advlued.obj advluedr.obj advedbr.obj dbadvler.obj 
+      wallpreg.obj collireg.obj MoneyEdr.obj advpnlreg.obj Wupdreg.obj 
+      WDATREG.obj webcreg.obj dbmereg.obj WebImgR.obj HTMLTLREG.obj advpicr.obj 
+      WebPostr.obj htmldlgr.obj advqryr.obj dbplanreg.obj vCalReg.obj 
+      imgpickr.obj edtlstreg.obj thumbreg.obj DBPlannerCalReg.obj 
+      PictureContainerReg.obj PlannerCalReg.obj acreg.obj aereg.obj lureg.obj 
+      parlreg.obj SHADER.obj paramtreeviewreg.obj dbslstreg.obj 
+      AstaPatchUtil.obj DBAdvEdBtnReg.obj DBTodoListReg.obj TodoListReg.obj 
+      WinXP.obj HTMLPopupReg.obj DBInspectorBarReg.obj InspectorBarReg.obj 
+      INIInspectorBarReg.obj RTTIInspectorBarReg.obj btnlireg.obj atbreg.obj 
+      dbanreg.obj DBHTMLBtnsReg.obj WebConnectReg.obj uhtmlareg.obj 
+      uhtmcoreg.obj uhtmlireg.obj AdvShaperReg.obj AdvMemoReg.obj 
+      AdvMoneyEditReg.obj InspLinks.obj AdvDBLookupComboBoxReg.obj 
+      GradientLblReg.obj AdvTreeComboBoxReg.obj HTMLCreditReg.obj 
+      ToolPanelsReg.obj AdvProgressBarReg.obj AdvPageControlreg.obj 
+      AdvTabSetReg.obj AdvAlertWindowReg.obj AdvNavBarReg.obj 
+      DBPlannerMonthViewReg.obj PlannerMonthViewReg.obj TMSGraphicsReg.obj 
+      AdvMenuRegister.obj AdvCardListReg.obj piclistreg.obj DBAdvCardListReg.obj 
+      AdvToolBarReg.obj htmlchklireg.obj folderdialogreg.obj AdvGridRtf.obj 
+      advoutlooklistreg.obj advcardlisteditlinks.obj advcardlistadveditlink.obj 
+      advofficehintreg.obj advglowbuttonreg.obj advappstyler.obj 
+      advofficepagerreg.obj AdvOfficeTabSetReg.obj AdvOfficeStatusBarReg.obj 
+      TMSOfficeGraphicsReg.obj advofficeimagereg.obj advshapebuttonreg.obj 
+      advpreviewmenureg.obj taskdialog.obj AdvWiiProgressBarReg.obj 
+      AdvCircularProgressReg.obj AdvGroupBoxReg.obj AdvOfficeButtonsReg.obj 
+      AdvScrollBoxReg.obj dbadvmoneyeditreg.obj AdvTrackBarReg.obj 
+      AdvTrackBar.obj DBAdvTrackBarReg.obj DBAdvTrackBar.obj AdvShape.obj 
+      AdvShapeReg.obj AtbXPVS.obj AdvStickyPopupMenuReg.obj 
+      AdvStickyPopupMenu.obj AdvDateTimePickerReg.obj AdvDateTimePicker.obj 
+      DBAdvGlowNavigatorReg.obj DBAdvGDIPPicture.obj DBAdvPictureReg.obj 
+      DBAdvPicture.obj DBAdvGDIPPictureReg.obj tmsc5.obj"/>
+    <RESFILES value="tmsc5.res Htmlireg.dcr Htmbureg.dcr Htmcoreg.dcr Htmhireg.dcr Htmlareg.dcr 
+      Hilireg.dcr Htmltvr.dcr Alvreg.dcr Cabr.dcr Clistedr.dcr Edtbreg.dcr 
+      Llreg.dcr Pdlgreg.dcr Planreg.dcr Rtflreg.dcr Slstreg.dcr Anireg.dcr 
+      Tilebmp.dcr Olnkreg.dcr asreg.dcr Tlreg.dcr dbasreg.dcr dbaereg.dcr 
+      htmstbr.dcr htmstreg.dcr colcoreg.dcr dbhtmlar.dcr dblucmbr.dcr 
+      paramlabreg.dcr paramchklreg.dcr paramlstreg.dcr datelbl.dcr advluedr.dcr 
+      advedbr.dcr dbadvler.dcr wallpreg.dcr collireg.dcr MoneyEdr.dcr 
+      advpnlreg.dcr Wupdreg.dcr WDATREG.dcr webcreg.dcr dbmereg.dcr WebImgR.dcr 
+      HTMLTLREG.dcr advpicr.dcr WebPostr.dcr htmldlgr.dcr advqryr.dcr 
+      dbplanreg.dcr vCalReg.dcr imgpickr.dcr edtlstreg.dcr thumbreg.dcr 
+      DBPlannerCalReg.dcr PictureContainerReg.dcr PlannerCalReg.dcr acreg.dcr 
+      aereg.dcr lureg.dcr parlreg.dcr SHADER.dcr paramtreeviewreg.dcr 
+      dbslstreg.dcr AstaPatchUtil.dcr DBAdvEdBtnReg.dcr DBTodoListReg.dcr 
+      TodoListReg.dcr WinXP.dcr HTMLPopupReg.dcr DBInspectorBarReg.dcr 
+      InspectorBarReg.dcr INIInspectorBarReg.dcr RTTIInspectorBarReg.dcr 
+      btnlireg.dcr atbreg.dcr dbanreg.dcr DBHTMLBtnsReg.dcr WebConnectReg.dcr 
+      uhtmlareg.dcr uhtmcoreg.dcr uhtmlireg.dcr AdvShaperReg.dcr AdvMemoReg.dcr 
+      AdvMoneyEditReg.dcr AdvDBLookupComboBoxReg.dcr GradientLblReg.dcr 
+      HTMLCreditReg.dcr ToolPanelsReg.dcr AdvProgressBarReg.dcr 
+      AdvPageControlreg.dcr AdvTabSetReg.dcr AdvAlertWindowReg.dcr 
+      AdvNavBarReg.dcr PlannerMonthViewReg.dcr TMSGraphicsReg.dcr 
+      AdvMenuRegister.dcr htmlchklireg.dcr folderdialogreg.dcr 
+      advoutlooklistreg.dcr advglowbuttonreg.dcr advappstyler.dcr 
+      AdvOfficeTabSetReg.dcr AdvOfficeStatusBarReg.dcr TMSOfficeGraphicsReg.dcr 
+      advofficeimagereg.dcr AdvWiiProgressBarReg.dcr AdvCircularProgressReg.dcr 
+      AdvGroupBoxReg.dcr AdvOfficeButtonsReg.dcr AdvScrollBoxReg.dcr 
+      AdvShapeReg.dcr AdvDateTimePickerReg.dcr ..\comp\DBAdvGlowNavigatorReg.dcr"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="odbc32.lib odbccp32.lib"/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="VCL50.lib VCLDB50.lib VCLSMP50.lib"/>
+    <PACKAGES value="vcl50.bpi VCLDB50.bpi tee50.bpi vcljpg50.bpi vclsmp50.bpi vclx50.bpi 
+      vclbde50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="tmsc5.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\projects\lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;TMS Component Pack&quot; -aa -Tpp -x -Gn -Gl -Gi -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2067
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

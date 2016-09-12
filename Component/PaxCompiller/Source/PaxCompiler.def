@@ -1,0 +1,37 @@
+{$O-}
+
+// {$define FPC}
+{$ifdef FPC}
+  {$ASMMODE intel}
+  {$DEFINE VARIANTS}
+   {$M+}
+{$endif}
+
+{$ifdef Ver140}
+  {$define VARIANTS}
+{$endif}
+{$ifdef Ver150}
+  {$define VARIANTS}
+{$endif}
+{$ifdef Ver160}
+  {$define VARIANTS}
+{$endif}
+{$ifdef Ver170}
+  {$define VARIANTS}
+{$endif}
+{$ifdef Ver180}
+  {$define VARIANTS}
+{$endif}
+{$ifdef Ver190}
+  {$define VARIANTS}
+{$endif}
+{$ifdef Ver200}
+  {$define VARIANTS}
+  {$define UNIC}
+{$endif}
+
+{$ifdef Ver220}
+  {$define VARIANTS}
+  {$define UNIC}
+{$endif}
+

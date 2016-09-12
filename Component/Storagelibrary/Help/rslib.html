@@ -1,0 +1,180 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Storage Library documentation</title>
+
+<style type=text/css>
+<!--
+A:hover {color: #FFaa00; }
+A {color: #4455bb;}
+.baza {font-size: 10pt; font-family: MS Sans Serif, Arial; color: #444444;}
+.bazatitle {font-size: 10pt; font-family: MS Sans Serif, Arial; color: #3344dd;}
+body {font-size: 10pt; font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; color: #444444; font-weight: normal; }
+//-->
+</style>
+
+</head>
+
+<body bgcolor="#4f6790" topmargin="0", marginheight="0">
+
+<table cellspacing=26 cellpadding=10 border=0 width=620 align=center bgcolor="#ffffff">
+
+<tr><td>
+<table cellspacing=2 cellpadding=0 border=0 width=620>
+<tr><td>
+<center>
+<img src="palette.gif" width="436" height="62" border="0" alt="" align=center><br><br>
+</center>
+</td></tr>
+</table>
+
+<table cellspacing=2 cellpadding=0 border=0 width=620 bgcolor="f3f3f3">
+<tr><td>
+<center>
+<font class="baza" color="666666"><b>[ Storage Library ]</b></font>
+</center>
+</td></tr>
+</table>
+
+
+<font class="baza" color="666666">
+<p align=justify>
+<a href="#Introduction">Introduction</a><br>
+<a href="#WhatIs">What is Storage library?</a><br>
+<a href="#HowWorks">How it works?</a><br>
+<a href="#TrsStorage">Using TrsStorage</a><br>
+&nbsp&nbsp&nbsp&nbsp<a href="#Sections">Working with sections</a><br>
+&nbsp&nbsp&nbsp&nbsp<a href="#Keys">Working with keys</a><br>
+<a href="#TrsIniData">Using TrsIniData</a><br>
+<a href="#TrsBinData">Using TrsBinData</a><br>
+<a href="#TrsRegData">Using TrsRegData</a><br>
+<a href="#TrsXMLData">Using TrsXMLData</a><br>
+<a href="#TrsPropSaver">Using TrsPropSaver</a><br>
+<a href="#TrsCustomProperties">Using TrsCustomProperties</a><br>
+<br><br></p>
+
+
+
+<font class="baza" color="666666">
+<p align=justify>
+<a name="Introduction"></a>
+<font class="bazatitle" color="3366dd"><b>[ Introduction ]</b></font><br><br>
+As a rule, each application has a set of control parameters called “application settings”. There are general settings and particular settings determined by a particular user. The application settings are stored in so called  “ini “ files, in Windows registry, in special format files, in Data Bases (DB), etc… It is natural to try to automate the application settings managing, in order to facilitate the programming  process and to develop a universal system for the application settings control, allowing the extension, modification and upgrading the computer program. The <B>Storage library</B> has been developed for the above mentioned purposes.
+</p>
+
+<p align=justify>
+<a name="WhatIs"></a>
+<font class="bazatitle" color="3366dd"><b>[ What is Storage library? ]</b></font><br><br>
+<B>Storage library</B> is designed to control the application settings. It provides the user with the following possibilities:<UL>
+<LI>Reading/writing the application settings in “ini” files, in Windows registry, in special format binary files, in the standard stream of Delphi. The latter allows the use of various locations for the application settings storage, e.g. the DB fields;</LI>
+<LI>Automatically reading/writing the published properties of the other components;</LI>
+<LI>Facilitation of the program developing for reading/writing both the private properties of the other components and any arbitrary data. </LI></UL>
+</p>
+
+<p align=justify>
+<a name="HowWorks"></a>
+<font class="bazatitle" color="3366dd"><b>[ How it works? ]</b></font><br><br>
+<B>TrsStorage</B> is a principal component of <B>Storage library</B>. It controls data stored in the memory as a tree-type structure. The <B>TrsIniData</B>, <B>TrsRegData</B>, <B>TrsBinData</B>, and <B>TrsXMLData</B> components are designed for the exchange of data between <B>TrsStorage</B> and a location of their storage. The <B>TrsPropSaver</B> component allows the automatic reading/writing the published properties of other components located on the same application form as <B>TrsPropSaver</B>. In addition, <B>TrsPropSaver</B> can store a position and state of a form, where it is situated.
+Usually, the developed application has to contain:<UL>
+<LI>a <B>TrsStorage</B> component designed to store and to control the application settings;</LI>
+<LI>any a component from the <B>TrsIniData</B>, <B>TrsRegData</B>, <B>TrsBinData</B>, or <B>TrsXMLData</B> which is designed to read/write the application settings stored in <B>TrsStorage</B>;</LI>
+<LI>a certain number of <B>TrsPropSaver</B> components (a component for each form) which will read/write (automatically) the position and state of a form, published properties of components located on a form, the user data, unpublished properties of components located on a form;</LI>
+<LI>a <B>TrsCustomProperties</B> component allowing the unification of the unpublished properties managing for all <B>TrsPropSaver</B> components.</LI></UL>
+See Figure 1. For details.
+</p>
+
+<table cellspacing=2 cellpadding=0 border=0 width=620>
+<tr><td>
+<center>
+<img src="figure1.gif" width="454" height="306" border="0" alt="" align=center><br><br>
+</center>
+</td></tr>
+</table>
+
+<p align=justify>
+This is a possible way to use <B>Storage library</B>. In particular, it is possible to use several <B>TrsStorage</B> components: a component used for processing the data stored in “ini” file, another component used for data stored in Windows registry. One can do not use <B>TrsPropSaver</B>- in this case, it is necessary to read/write “manually” the data. <B>TrsStorage</B> provides the user with various methods for such an operation. The <B>TrsCustomProperties</B> component is not needed if the user application does not require reading/writing the unpublished properties of other components.
+</p>
+
+
+<p align=justify>
+<a name="TrsStorage"></a>
+<font class="bazatitle" color="3366dd"><b>[ Using TrsStorage ]</b></font><br><br>
+The TrsStorage component creates a tree-type structure and save it in the memory. This structure can contain the various-type data. The TrsStorage data organization is like the Windows registry data organization. Sections and Keys are basic elements of the tree-type structure. Each section has a name and it can contain a unlimited number of sub-sections and keys. Each key has a name and a value. A section name (as well as a key name) has to be a unique one within a parent section.<br>
+The initial value of Active property of TrsStorage is set to be True. In this case, if TrsStorage component is linked to any from TrsStorageData components, the data will be loaded from an external source. If the Active value is set to be True in DesignTime mode and the appropriate properties of a corresponding component of TrsStorage  allow the automatic loading with data at the user application running. The TrsStorage.Save method call allows the data saving. The TrsStorage.Options value is set to be soSaveOnClose (default value) to provide an automatic saving the data. After this, the data will be saved automatically at Active=False or after the program termination.
+</p>
+
+<p align=justify>
+<a name="Sections"></a>
+<font class="bazatitle" color="3366dd"><b>[ Working with sections ]</b></font><br><br>
+RootSection is the basic property of TrsStorage. It allows the user to know or to set a current section. The use of TrsStorage is based on the current section. For example, the SectionAdd method allows the user to add a sub-section to the current section. The SectionDelete method deletes a sub-section of the current section. The SectionExist function returns True if the current section has a corresponding sub-section. The SectionList method fills up the TStrings class with a list of sub-sections of the current section. The ChangeDownRootSection and ChangeUpRootSection methods also allows the user to change a current section. An attempt to set a non-existing section to be the current section, results in the section creation.
+</p>
+
+<p align=justify>
+<a name="Keys"></a>
+<font class="bazatitle" color="3366dd"><b>[ Working with keys ]</b></font><br><br>
+If a current section is set, it is possible to use the keys from this section. The Key KeyDelete, KeyExist, KeyList, and KeyCount methods are used for this purpose. The attribution of a key with a value results in an automatic creation of this key. The ReadXXX and WriteXXX methods (where XXX can be: Boolean, Buffer, Component, Currency, DateTime, Float, Int64, Integer, Persistent, Point, Stream, String) are used to read/write the value of key. A default value is used as a parameter in ReadXXX functions: it will be returned if a key does not exist. In addition, the Values property allows one to return the key value. In this case, the key value is returned in variant-type variable. A variant-type variable is used also for the key value assignment.
+</p>
+
+<p align=justify>
+<a name="TrsIniData"></a>
+<font class="bazatitle" color="3366dd"><b>[ Using TrsIniData ]</b></font><br><br>
+The TrsIniData component is designed to the exchange of data between a TrsStorage component and "ini" file. The file name is set in FileName property. The following service options of Options property are available:<UL>
+<LI>doAutoName - Allows to use exe file name for name of ini file. Ini file name specified in FileName is ignored.</LI>
+<LI>doAutoPath - Allows to search the ini file in the directory with the current exe file. Directory specified in FileName is ignored.</LI></UL>
+For example:<BR>
+FileName:=''; Options:=[doAuthoPath,doAutoName] - it means: a directory with exe file, a name of exe file, a file name extension 'ini' (default value).<br>
+FileName:='.dat'; Options:=[doAutoPath,doAutoName] - a directory with exe file, a name of exe file, a file name extension 'dat'.<br>
+FileName:='demo.dat'; Options:=[doAutoPath] - a directory with exe file, a name of exe file,  file name 'demo.dat'<br>
+</p>
+
+<p align=justify>
+<a name="TrsBinData"></a>
+<font class="bazatitle" color="3366dd"><b>[ Using TrsBinData ]</b></font><br><br>
+The TrsBinData component is similar to TrsIniData, excepting the following points:
+the data exchange takes place between TrsStorage and a special format file. This format has been designed exclusively for Storage Library and it allows the fast reading/writing the data. The default file name extension of this file is 'bin'.
+</p>
+
+<p align=justify>
+<a name="TrsRegData"></a>
+<font class="bazatitle" color="3366dd"><b>[ Using TrsRegData ]</b></font><br><br>
+The TrsRegData component is designed for the data exchange between the TrsStorage component and Windows registry. The RootKey property sets the root key in the registry, and the RootPath property sets the registry key where the data will be stored, for example:<br>
+RootKey := rkLocalMachine;<br>
+RootPath := 'software\companyname\productname\version';
+</p>
+
+<p align=justify>
+<a name="TrsXMLData"></a>
+<font class="bazatitle" color="3366dd"><b>[ Using TrsXMLData ]</b></font><br><br>
+The TrsXMLData component is similar to TrsIniData, excepting the following points:
+the data exchange takes place between TrsStorage and a XML file. The default file name extension of this file is 'xml'.
+</p>
+
+
+<p align=justify>
+<a name="TrsPropSaver"></a>
+<font class="bazatitle" color="3366dd"><b>[ Using TrsPropSaver ]</b></font><br><br>
+The TrsPropSaver component is designed for an automatic storage of published properties of other components, located on the same form with TrsPropSaver. In addition, TrsPropSaver allows to save a position and state of this form, the user data and unpublished properties of other components. All data  from a component of TrsPropSaver are stored in a section of TrsStorage. The section name is set in TrsPropSaver.RootSection. If several TrsPropSaver components are in use in an application, RootSection of each TrsPropSaver component has to be unique. The TrsPropSaver is controlled with a dialog box, in DesignTime mode. This dialog box allows the user to select published properties of other components which have to be saved, to create user properties which values will be read/written using the TrsPropSaver events. If the TrsCustomProperties component settings are correct, one can select custom properties to be obtained with use of TrsCustomProperties components. In this dialog box, user and custom properties are shown with different colors.<br>
+The user properties has the green color, its name is set manually. While the data are loading and the program is running, the TrsPropSaver.OnSetUserProperty event takes place. The TrsPropSaver.OnGetUserProperty event takes place before the data storage. The handlers of these events have to contain a program code designed for the user properties use.<br>
+The custom properties are shown by the blue color. The events connected to getting and setting the custom properties are in the TrsCustomProperties component. Thus, the same code, designed for unpublished properties processing, is in use in all TrsPropSaver components.<br>
+</p>
+
+<p align=justify>
+<a name="TrsCustomProperties"></a>
+<font class="bazatitle" color="3366dd"><b>[ Using TrsCustomProperties ]</b></font><br><br>
+TrsCustomProperties component is designed for unification of use of unpublished properties in all TrsPropSaver components. To develop a handler for a unpublished properties, the following properties have to be set:<br><UL>
+<LI>PropClass  property for which the handler has to be developed;</LI>
+<LI>PropName property which is visualized in the "property selection" dialog (TrsPropSaver component);</LI>
+<LI>InDescendants property which sets, if it is possible to use this property in descendants from PropClass;</LI>
+<LI>The handlers of the OnGetProperty and OnSetProperty events have to be also developed.</LI></UL>
+</p>
+
+<p align=justify>
+If you have any questions, comments, suggestions, please <a href="mailto:ray@mail.tomsknet.ru">contact Storage Library author.</a>
+</p>
+
+<p align=center>
+Copyright &copy 2000 Andrei Roofin, <a href="http://dsr.tomsk.ru/">DeepSoftware</a>
+</p>
+
+</td></tr></table>
+</body>
+</html>

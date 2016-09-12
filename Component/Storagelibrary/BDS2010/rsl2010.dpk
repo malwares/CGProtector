@@ -1,0 +1,53 @@
+package rsl2010;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Deepsoftware Storage library Components, Runtime package, VCL version'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  dsrAES in '..\Source\dsrAES.pas',
+  rsAesEncryptor in '..\Source\rsAesEncryptor.pas',
+  rsBinData in '..\Source\rsBinData.pas',
+  rsConst in '..\Source\rsConst.pas',
+  rsEventData in '..\Source\rsEventData.pas',
+  rsIniData in '..\Source\rsIniData.pas',
+  rsListViewConnector in '..\Source\rsListViewConnector.pas',
+  rsLZRWCompression in '..\Source\rsLZRWCompression.pas',
+  rsProperties in '..\Source\rsProperties.pas',
+  rsProperty in '..\Source\rsProperty.pas',
+  rsPropSaver in '..\Source\rsPropSaver.pas',
+  rsRegData in '..\Source\rsRegData.pas',
+  rsSearch in '..\Source\rsSearch.pas',
+  rsStorage in '..\Source\rsStorage.pas',
+  rsTreeViewConnector in '..\Source\rsTreeViewConnector.pas',
+  rsUtils in '..\Source\rsUtils.pas',
+  rsXmlData in '..\Source\rsXmlData.pas',
+  rsXorEncryptor in '..\Source\rsXorEncryptor.pas';
+
+end.

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="TMSC5STD.bpl"/>
+    <OBJFILES value="Htmlireg.obj Htmbureg.obj Htmcoreg.obj Htmhireg.obj Htmlareg.obj 
+      Hilireg.obj Htmltvr.obj Apreg.obj Alvreg.obj Asgcreg.obj Asgreg.obj 
+      Cabr.obj Clistedr.obj Edtbreg.obj Flctrlr.obj Llreg.obj Mskreg.obj 
+      Pdlgreg.obj Planreg.obj Propscrl.obj Rtflreg.obj Scrlreg.obj Slstreg.obj 
+      Sysmreg.obj Anireg.obj Fsreg.obj Tilebmp.obj Olnkreg.obj asreg.obj 
+      Tlreg.obj htmstbr.obj lfreg.obj htmstreg.obj colcoreg.obj paramlabreg.obj 
+      paramchklreg.obj paramlstreg.obj datelbl.obj AdvEdBtn.obj advlued.obj 
+      advluedr.obj advedbr.obj wallpreg.obj collireg.obj MoneyEdr.obj 
+      advpnlreg.obj Wupdreg.obj WDATREG.obj webcreg.obj WebImgR.obj 
+      HTMLTLREG.obj advpicr.obj frmsreg.obj WebPostr.obj htmldlgr.obj advqryr.obj 
+      vCalReg.obj imgpickr.obj edtlstreg.obj thumbreg.obj EllipsLblReg.obj 
+      PictureContainerReg.obj PlannerCalReg.obj acreg.obj aereg.obj calpreg.obj 
+      calcreg.obj lureg.obj parlreg.obj SHADER.obj paramtreeviewreg.obj 
+      AstaPatchUtil.obj TodoListReg.obj WinXP.obj HTMLPopupReg.obj 
+      InspectorBarReg.obj INIInspectorBarReg.obj RTTIInspectorBarReg.obj 
+      btnlireg.obj atbreg.obj HotSpotImageReg.obj WebConnectReg.obj 
+      uhtmlareg.obj uhtmcoreg.obj uhtmlireg.obj AdvShaperReg.obj AdvMemoReg.obj 
+      AdvMoneyEditReg.obj InspLinks.obj GradientLblReg.obj 
+      AdvTreeComboBoxReg.obj HTMLCreditReg.obj TMSC5STD.obj"/>
+    <RESFILES value="TMSC5STD.res Htmlireg.dcr Htmbureg.dcr Htmcoreg.dcr Htmhireg.dcr 
+      Htmlareg.dcr Hilireg.dcr Htmltvr.dcr Alvreg.dcr Cabr.dcr Clistedr.dcr 
+      Edtbreg.dcr Llreg.dcr Pdlgreg.dcr Planreg.dcr Rtflreg.dcr Slstreg.dcr 
+      Sysmreg.dcr Anireg.dcr Fsreg.dcr Tilebmp.dcr Olnkreg.dcr asreg.dcr 
+      Tlreg.dcr htmstbr.dcr lfreg.dcr htmstreg.dcr colcoreg.dcr paramlabreg.dcr 
+      paramchklreg.dcr paramlstreg.dcr datelbl.dcr advluedr.dcr advedbr.dcr 
+      wallpreg.dcr collireg.dcr MoneyEdr.dcr advpnlreg.dcr Wupdreg.dcr 
+      WDATREG.dcr webcreg.dcr WebImgR.dcr HTMLTLREG.dcr advpicr.dcr frmsreg.dcr 
+      WebPostr.dcr htmldlgr.dcr advqryr.dcr vCalReg.dcr imgpickr.dcr 
+      edtlstreg.dcr thumbreg.dcr EllipsLblReg.dcr PictureContainerReg.dcr 
+      PlannerCalReg.dcr acreg.dcr aereg.dcr calpreg.dcr calcreg.dcr lureg.dcr 
+      parlreg.dcr SHADER.dcr paramtreeviewreg.dcr AstaPatchUtil.dcr 
+      TodoListReg.dcr WinXP.dcr HTMLPopupReg.dcr InspectorBarReg.dcr 
+      INIInspectorBarReg.dcr RTTIInspectorBarReg.dcr btnlireg.dcr atbreg.dcr 
+      HotSpotImageReg.dcr WebConnectReg.dcr uhtmlareg.dcr uhtmcoreg.dcr 
+      uhtmlireg.dcr AdvShaperReg.dcr AdvMemoReg.dcr AdvMoneyEditReg.dcr 
+      GradientLblReg.dcr HTMLCreditReg.dcr"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="odbc32.lib odbccp32.lib"/>
+    <LIBRARIES value="VCLDB50.lib"/>
+    <SPARELIBS value="VCL50.lib VCLDB50.lib"/>
+    <PACKAGES value="vcl50.bpi vclx50.bpi vcljpg50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value="_DEBUG;TMSPERSONAL"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="TMSC5STD.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG 
+      -DTMSPERSONAL -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M -LUvcl50"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;TMS Component Pack&quot; -aa -Tpp -x -Gn -Gl -Gi -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2067
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+$(BCB)\Bin\DCLIB50.bpl=InterBase Data Access Components
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=_DEBUG;TMSPERSONAL
+Item1=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

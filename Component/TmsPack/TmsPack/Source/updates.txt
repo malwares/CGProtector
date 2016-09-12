@@ -1,0 +1,23 @@
+
+Installing TMS Component Pack updates
+-------------------------------------
+
+For a smooth install of TMS Component Pack updates,
+follow these steps:
+
+- From the IDE, remove the TMS Component Pack package files
+  (Menu Component, Install packages) 
+
+  "TMS Component Pack"
+  "TMS Component Pack design time support"
+  'TMS TAdvStringGrid Excel support"
+
+- Delete all files from the TMS Component Pack source directory,
+  including .DCU, .HPP, .OBJ files that the IDE has created
+
+- In the {$IDEDIR}\Projects\Bpl folder, delete any compiled file
+  TMS*.DCP, TMS*.DCP, TMS*.BPI, TMS*.TDS, TMS*.LIB
+
+- Unzip all update ZIP files into the TMS Component Pack source directory
+
+- Follow steps in INSTALL.TXT to install the 3 packages for the TMS Component Pack

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality" Type="String">DelphiDotNet.Personality</Option>
+			<Option Name="ProjectType" Type="String"></Option>
+			<Option Name="Version" Type="String">2.0</Option>
+			<Option Name="GUID" Type="String">{CE67807D-542D-44B6-918D-8EF01AF9F4C4}</Option>
+		</Option>
+	</PersonalityInfo>
+	<DelphiDotNet.Personality>
+		<Source>
+			<Source Name="MainSource" Type="String">tmsded2006net.dpk</Source>
+		</Source>
+		<FileVersion>
+			<FileVersion Name="Version" Type="String">7.0</FileVersion>
+		</FileVersion>
+		<Compiler>
+			<Compiler Name="A" Type="Integer">0</Compiler>
+			<Compiler Name="B" Type="Integer">0</Compiler>
+			<Compiler Name="C" Type="Integer">1</Compiler>
+			<Compiler Name="D" Type="Integer">1</Compiler>
+			<Compiler Name="E" Type="Integer">0</Compiler>
+			<Compiler Name="F" Type="Integer">0</Compiler>
+			<Compiler Name="G" Type="Integer">1</Compiler>
+			<Compiler Name="H" Type="Integer">1</Compiler>
+			<Compiler Name="I" Type="Integer">1</Compiler>
+			<Compiler Name="J" Type="Integer">0</Compiler>
+			<Compiler Name="K" Type="Integer">0</Compiler>
+			<Compiler Name="L" Type="Integer">1</Compiler>
+			<Compiler Name="M" Type="Integer">0</Compiler>
+			<Compiler Name="N" Type="Integer">1</Compiler>
+			<Compiler Name="O" Type="Integer">1</Compiler>
+			<Compiler Name="P" Type="Integer">1</Compiler>
+			<Compiler Name="Q" Type="Integer">0</Compiler>
+			<Compiler Name="R" Type="Integer">0</Compiler>
+			<Compiler Name="S" Type="Integer">0</Compiler>
+			<Compiler Name="T" Type="Integer">0</Compiler>
+			<Compiler Name="U" Type="Integer">0</Compiler>
+			<Compiler Name="V" Type="Integer">1</Compiler>
+			<Compiler Name="W" Type="Integer">0</Compiler>
+			<Compiler Name="X" Type="Integer">1</Compiler>
+			<Compiler Name="Y" Type="Integer">1</Compiler>
+			<Compiler Name="Z" Type="Integer">1</Compiler>
+			<Compiler Name="ShowHints" Type="Boolean">True</Compiler>
+			<Compiler Name="ShowWarnings" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitAliases" Type="String">WinTypes=Borland.Vcl.Windows;WinProcs=Borland.Vcl.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;</Compiler>
+			<Compiler Name="NamespacePrefix" Type="String"></Compiler>
+			<Compiler Name="GenerateDocumentation" Type="Boolean">False</Compiler>
+			<Compiler Name="DefaultNamespace" Type="String"></Compiler>
+			<Compiler Name="SymbolDeprecated" Type="Boolean">True</Compiler>
+			<Compiler Name="SymbolLibrary" Type="Boolean">True</Compiler>
+			<Compiler Name="SymbolPlatform" Type="Boolean">True</Compiler>
+			<Compiler Name="SymbolExperimental" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitLibrary" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitPlatform" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitDeprecated" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitExperimental" Type="Boolean">True</Compiler>
+			<Compiler Name="HResultCompat" Type="Boolean">True</Compiler>
+			<Compiler Name="HidingMember" Type="Boolean">True</Compiler>
+			<Compiler Name="HiddenVirtual" Type="Boolean">True</Compiler>
+			<Compiler Name="Garbage" Type="Boolean">True</Compiler>
+			<Compiler Name="BoundsError" Type="Boolean">True</Compiler>
+			<Compiler Name="ZeroNilCompat" Type="Boolean">True</Compiler>
+			<Compiler Name="StringConstTruncated" Type="Boolean">True</Compiler>
+			<Compiler Name="ForLoopVarVarPar" Type="Boolean">True</Compiler>
+			<Compiler Name="TypedConstVarPar" Type="Boolean">True</Compiler>
+			<Compiler Name="AsgToTypedConst" Type="Boolean">True</Compiler>
+			<Compiler Name="CaseLabelRange" Type="Boolean">True</Compiler>
+			<Compiler Name="ForVariable" Type="Boolean">True</Compiler>
+			<Compiler Name="ConstructingAbstract" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparisonFalse" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparisonTrue" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparingSignedUnsigned" Type="Boolean">True</Compiler>
+			<Compiler Name="CombiningSignedUnsigned" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsupportedConstruct" Type="Boolean">True</Compiler>
+			<Compiler Name="FileOpen" Type="Boolean">True</Compiler>
+			<Compiler Name="FileOpenUnitSrc" Type="Boolean">True</Compiler>
+			<Compiler Name="BadGlobalSymbol" Type="Boolean">True</Compiler>
+			<Compiler Name="DuplicateConstructorDestructor" Type="Boolean">True</Compiler>
+			<Compiler Name="InvalidDirective" Type="Boolean">True</Compiler>
+			<Compiler Name="PackageNoLink" Type="Boolean">True</Compiler>
+			<Compiler Name="PackageThreadVar" Type="Boolean">True</Compiler>
+			<Compiler Name="ImplicitImport" Type="Boolean">True</Compiler>
+			<Compiler Name="HPPEMITIgnored" Type="Boolean">True</Compiler>
+			<Compiler Name="NoRetVal" Type="Boolean">True</Compiler>
+			<Compiler Name="UseBeforeDef" Type="Boolean">True</Compiler>
+			<Compiler Name="ForLoopVarUndef" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitNameMismatch" Type="Boolean">True</Compiler>
+			<Compiler Name="NoCFGFileFound" Type="Boolean">True</Compiler>
+			<Compiler Name="MessageDirective" Type="Boolean">True</Compiler>
+			<Compiler Name="ImplicitVariants" Type="Boolean">True</Compiler>
+			<Compiler Name="UnicodeToLocale" Type="Boolean">True</Compiler>
+			<Compiler Name="LocaleToUnicode" Type="Boolean">True</Compiler>
+			<Compiler Name="ImagebaseMultiple" Type="Boolean">True</Compiler>
+			<Compiler Name="SuspiciousTypecast" Type="Boolean">True</Compiler>
+			<Compiler Name="PrivatePropAccessor" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeType" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeCode" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeCast" Type="Boolean">True</Compiler>
+			<Compiler Name="OptionTruncated" Type="Boolean">True</Compiler>
+			<Compiler Name="WideCharReduced" Type="Boolean">True</Compiler>
+			<Compiler Name="DuplicatesIgnored" Type="Boolean">True</Compiler>  <Compiler Name="UnitInitSeq">True</Compiler>
+      <Compiler Name="LocalPInvoke">True</Compiler>
+      <Compiler Name="CodePage"></Compiler>
+    </Compiler>
+		<Linker>
+			<Linker Name="MapFile" Type="Integer">0</Linker>
+			<Linker Name="OutputObjs" Type="Integer">0</Linker>
+			<Linker Name="ConsoleApp" Type="Integer">1</Linker>
+			<Linker Name="DebugInfo" Type="Boolean">True</Linker>
+			<Linker Name="RemoteSymbols" Type="Boolean">False</Linker>
+			<Linker Name="GenerateDRC" Type="Boolean">False</Linker>
+			<Linker Name="MinStackSize" Type="Integer">4096</Linker>
+			<Linker Name="MaxStackSize" Type="Integer">1048576</Linker>
+			<Linker Name="ImageBase" Type="Integer">4194304</Linker>
+			<Linker Name="ExeDescription" Type="String"></Linker>  <Linker Name="GenerateHpps">False</Linker>
+    </Linker>
+		<Directories>
+			<Directories Name="OutputDir" Type="String"></Directories>
+			<Directories Name="UnitOutputDir" Type="String"></Directories>
+			<Directories Name="PackageDLLOutputDir" Type="String"></Directories>
+			<Directories Name="PackageDCPOutputDir" Type="String"></Directories>
+			<Directories Name="SearchPath" Type="String">c:\program files\common files\borland shared\bds\shared assemblies\2.0;c:\program files\borland\bds\2.0\bin;c:\delphi8\pack;C:\Delphi2005\VCLNET\Pack;c:\delphi2005\vclnet\pack;c:\program files\common files\borland shared\bds\shared assemblies\4.0;c:\delphi2006\vclnet\pack</Directories>
+			<Directories Name="Packages" Type="String">Borland.Studio.Vcl.Design;TMSD2006NET;Borland.VclDbCtrls;Borland.Delphi</Directories>
+			<Directories Name="Conditionals" Type="String"></Directories>
+			<Directories Name="DebugSourceDirs" Type="String"></Directories>
+			<Directories Name="UsePackages" Type="Boolean">False</Directories>
+		</Directories>
+		<Parameters>
+			<Parameters Name="RunParams" Type="String"></Parameters>
+			<Parameters Name="HostApplication" Type="String"></Parameters>
+			<Parameters Name="Launcher" Type="String"></Parameters>
+			<Parameters Name="UseLauncher" Type="Boolean">False</Parameters>
+			<Parameters Name="DebugCWD" Type="String"></Parameters>
+			<Parameters Name="RemoteHost" Type="String"></Parameters>
+			<Parameters Name="RemotePath" Type="String"></Parameters>
+			<Parameters Name="RemoteLauncher" Type="String"></Parameters>
+			<Parameters Name="RemoteCWD" Type="String"></Parameters>
+			<Parameters Name="RemoteDebug" Type="Boolean">False</Parameters>  <Parameters Name="Debug Symbols Search Path"></Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+		<Language>
+			<Language Name="ActiveLang" Type="String"></Language>
+			<Language Name="ProjectLang" Type="String">$00000000</Language>
+			<Language Name="RootDir" Type="String"></Language>
+		</Language>
+		<VersionInfo>
+			<VersionInfo Name="IncludeVerInfo" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="AutoIncBuild" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="MajorVer" Type="Integer">1</VersionInfo>
+			<VersionInfo Name="MinorVer" Type="Integer">0</VersionInfo>
+			<VersionInfo Name="Release" Type="Integer">0</VersionInfo>
+			<VersionInfo Name="Build" Type="Integer">0</VersionInfo>
+			<VersionInfo Name="Debug" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="PreRelease" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Special" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Private" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="DLL" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Locale" Type="Integer">2067</VersionInfo>
+			<VersionInfo Name="CodePage" Type="Integer">1252</VersionInfo>
+		</VersionInfo>
+		<VersionInfoKeys>
+			<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+			<VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+			<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+			<VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+			<VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+			<VersionInfoKeys Name="Comments"></VersionInfoKeys>
+		</VersionInfoKeys>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <FileList>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.Delphi.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Delphi" AssemblyName="Borland.Delphi" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="c:\program files\common files\borland shared\bds\shared assemblies\4.0\Borland.VclDbCtrls.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclDbCtrls" AssemblyName="Borland.VclDbCtrls" Version="10.0.4143.0" LinkUnits="False"/>
+      <File FileName="TMSD2006NET.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="TMSD2006NET" AssemblyName="TMSD2006NET" Version="3.3.0.0" LinkUnits="False"/>
+      <File FileName="Borland.Studio.Vcl.Design.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Studio.Vcl.Design" AssemblyName="Borland.Studio.Vcl.Design" Version="9.0.1882.30496" LinkUnits="False"/>
+      <File FileName="acgde.pas" ContainerId="PascalCompiler" ModuleName="acgde"/>
+      <File FileName="AdvAlertMessageDE.pas" ContainerId="PascalCompiler" ModuleName="AdvAlertMessageDE"/>
+      <File FileName="AdvAlertWindowRegDE.pas" ContainerId="PascalCompiler" ModuleName="AdvAlertWindowRegDE"/>
+      <File FileName="AdvHTMLDE.pas" ContainerId="PascalCompiler" ModuleName="AdvHTMLDE"/>
+      <File FileName="AdvHTMLProp.pas" ContainerId="PascalCompiler" ModuleName="AdvHTMLProp"/>
+      <File FileName="AdvMemoRegDe.pas" ContainerId="PascalCompiler" ModuleName="AdvMemoRegDe"/>
+      <File FileName="AdvMemoAC.pas" ContainerId="PascalCompiler" ModuleName="AdvMemoAC"/>
+      <File FileName="AdvMemoDE.pas" ContainerId="PascalCompiler" ModuleName="AdvMemoDE"/>
+      <File FileName="AdvNavBarRegDE.pas" ContainerId="PascalCompiler" ModuleName="AdvNavBarRegDE"/>
+      <File FileName="AdvPageControlde.pas" ContainerId="PascalCompiler" ModuleName="AdvPageControlde"/>
+      <File FileName="AdvPageControlRegDe.pas" ContainerId="PascalCompiler" ModuleName="AdvPageControlRegDe"/>
+      <File FileName="AdvToolButtonStyles.pas" ContainerId="PascalCompiler" ModuleName="AdvToolButtonStyles"/>
+      <File FileName="advpnlde.pas" ContainerId="PascalCompiler" ModuleName="advpnlde"/>
+      <File FileName="AdvToolButtonDE.pas" ContainerId="PascalCompiler" ModuleName="AdvToolButtonDE"/>
+      <File FileName="AdvTreeComboBoxDE.pas" ContainerId="PascalCompiler" ModuleName="AdvTreeComboBoxDE"/>
+      <File FileName="AdvTreeComboBoxRegDE.pas" ContainerId="PascalCompiler" ModuleName="AdvTreeComboBoxRegDE"/>
+      <File FileName="asgde.pas" ContainerId="PascalCompiler" ModuleName="asgde"/>
+      <File FileName="asgcregde.pas" ContainerId="PascalCompiler" ModuleName="asgcregde"/>
+      <File FileName="atbregde.pas" ContainerId="PascalCompiler" ModuleName="atbregde"/>
+      <File FileName="ColorDlg.pas" ContainerId="PascalCompiler" ModuleName="ColorDlg"/>
+      <File FileName="calcregde.pas" ContainerId="PascalCompiler" ModuleName="calcregde"/>
+      <File FileName="DBHTMLBtnsRegDE.pas" ContainerId="PascalCompiler" ModuleName="DBHTMLBtnsRegDE"/>
+      <File FileName="dbhtmlaregde.pas" ContainerId="PascalCompiler" ModuleName="dbhtmlaregde"/>
+      <File FileName="DBTodoListRegDE.pas" ContainerId="PascalCompiler" ModuleName="DBTodoListRegDE"/>
+      <File FileName="DBTodoListDE.pas" ContainerId="PascalCompiler" ModuleName="DBTodoListDE"/>
+      <File FileName="htmlpopupregde.pas" ContainerId="PascalCompiler" ModuleName="htmlpopupregde"/>
+      <File FileName="htmburegde.pas" ContainerId="PascalCompiler" ModuleName="htmburegde"/>
+      <File FileName="htmlaregde.pas" ContainerId="PascalCompiler" ModuleName="htmlaregde"/>
+      <File FileName="htmlchkliregde.pas" ContainerId="PascalCompiler" ModuleName="htmlchkliregde"/>
+      <File FileName="HTMLCreditRegDE.pas" ContainerId="PascalCompiler" ModuleName="HTMLCreditRegDE"/>
+      <File FileName="htmldlgregde.pas" ContainerId="PascalCompiler" ModuleName="htmldlgregde"/>
+      <File FileName="htmlde.pas" ContainerId="PascalCompiler" ModuleName="htmlde"/>
+      <File FileName="htmstregde.pas" ContainerId="PascalCompiler" ModuleName="htmstregde"/>
+      <File FileName="htmlprop.pas" ContainerId="PascalCompiler" ModuleName="htmlprop"/>
+      <File FileName="htmlsde.pas" ContainerId="PascalCompiler" ModuleName="htmlsde"/>
+      <File FileName="paramtreeviewregde.pas" ContainerId="PascalCompiler" ModuleName="paramtreeviewregde"/>
+      <File FileName="paramchklregde.pas" ContainerId="PascalCompiler" ModuleName="paramchklregde"/>
+      <File FileName="Paramde.pas" ContainerId="PascalCompiler" ModuleName="Paramde"/>
+      <File FileName="paramedit.pas" ContainerId="PascalCompiler" ModuleName="paramedit"/>
+      <File FileName="paramlabregde.pas" ContainerId="PascalCompiler" ModuleName="paramlabregde"/>
+      <File FileName="paramlistprop.pas" ContainerId="PascalCompiler" ModuleName="paramlistprop"/>
+      <File FileName="paramlstregde.pas" ContainerId="PascalCompiler" ModuleName="paramlstregde"/>
+      <File FileName="paramprop.pas" ContainerId="PascalCompiler" ModuleName="paramprop"/>
+      <File FileName="paramsde.pas" ContainerId="PascalCompiler" ModuleName="paramsde"/>
+      <File FileName="paramtreeprop.pas" ContainerId="PascalCompiler" ModuleName="paramtreeprop"/>
+      <File FileName="pdlgregde.pas" ContainerId="PascalCompiler" ModuleName="pdlgregde"/>
+      <File FileName="ToolPanelsRegDE.pas" ContainerId="PascalCompiler" ModuleName="ToolPanelsRegDE"/>
+      <File FileName="uMemoEdit.pas" ContainerId="PascalCompiler" ModuleName="uMemoEdit"/>
+      <File FileName="slstde.pas" ContainerId="PascalCompiler" ModuleName="slstde"/>
+      <File FileName="slstregde.pas" ContainerId="PascalCompiler" ModuleName="slstregde"/>
+      <File FileName="ToDoListde.pas" ContainerId="PascalCompiler" ModuleName="ToDoListde"/>
+      <File FileName="ToDoListregde.pas" ContainerId="PascalCompiler" ModuleName="ToDoListregde"/>
+      <File FileName="ToolPanelsDE.pas" ContainerId="PascalCompiler" ModuleName="ToolPanelsDE"/>
+      <File FileName="advpnlregde.pas" ContainerId="PascalCompiler" ModuleName="advpnlregde"/>
+      <File FileName="AsgRegDE.pas" ContainerId="PascalCompiler" ModuleName="AsgRegDE"/>
+      <File FileName="dbplanregde.pas" ContainerId="PascalCompiler" ModuleName="dbplanregde"/>
+      <File FileName="dbplande.pas" ContainerId="PascalCompiler" ModuleName="dbplande"/>
+      <File FileName="DBPlannerCalDE.pas" ContainerId="PascalCompiler" ModuleName="DBPlannerCalDE"/>
+      <File FileName="DBPlannerCalRegDE.pas" ContainerId="PascalCompiler" ModuleName="DBPlannerCalRegDE"/>
+      <File FileName="DBPlannerMonthViewRegDE.pas" ContainerId="PascalCompiler" ModuleName="DBPlannerMonthViewRegDE"/>
+      <File FileName="InspDE.pas" ContainerId="PascalCompiler" ModuleName="InspDE"/>
+      <File FileName="InspectorBarRegDE.pas" ContainerId="PascalCompiler" ModuleName="InspectorBarRegDE"/>
+      <File FileName="PlannerMonthViewRegDE.pas" ContainerId="PascalCompiler" ModuleName="PlannerMonthViewRegDE"/>
+      <File FileName="PlannerCalRegDE.pas" ContainerId="PascalCompiler" ModuleName="PlannerCalRegDE"/>
+      <File FileName="planregde.pas" ContainerId="PascalCompiler" ModuleName="planregde"/>
+      <File FileName="plande.pas" ContainerId="PascalCompiler" ModuleName="plande"/>
+      <File FileName="PlanStyles.pas" ContainerId="PascalCompiler" ModuleName="PlanStyles"/>
+      <File FileName="DBAdvGridDE.pas" ContainerId="PascalCompiler" ModuleName="DBAdvGridDE"/>
+    </FileList>
+  </DelphiDotNet.Personality>  <StarTeamAssociation></StarTeamAssociation>
+  <StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

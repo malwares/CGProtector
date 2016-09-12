@@ -1,0 +1,21 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+USERES("PaxCompiler_BCB5.res");
+USERES("paxcompiler.dcr");
+USEPACKAGE("vcl50.bpi");
+USEUNIT("PaxCompilerRegister.pas");
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+//---------------------------------------------------------------------------
+
+//   Package source.
+//---------------------------------------------------------------------------
+
+#pragma argsused
+int WINAPI DllEntryPoint(HINSTANCE hinst, unsigned long reason, void*)
+{
+        return 1;
+}
+//---------------------------------------------------------------------------

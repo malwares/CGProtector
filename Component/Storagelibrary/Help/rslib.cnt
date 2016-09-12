@@ -1,0 +1,21 @@
+:Base rslib.hlp>main
+:Title Storage library components
+
+
+1 Storage Library Help
+2 About Storage Library=rspage90
+2 Storage Library components
+3 TrsStorage=rspage100
+3 TrsIniData=rspage2000
+3 TrsRegData=rspage6000
+3 TrsBinData=rspage3000
+3 TrsXmlData=rspage4000
+3 TrsPropSaver=rspage7000
+3 TrsCustomProperties=rspage8000
+3 TrsXorEncryptor=rspage11000
+3 TrsAesEncryptor=rspage12000
+3 TrsTreeViewConnector=rspage14000
+3 TrsListViewConnector=rspage15000
+3 TrsSearch=rspage16000
+3 TrsKeyWrapper=rspage17000
+3 TrsSectionWrapper=rspage18000

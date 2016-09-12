@@ -1,2 +1,5 @@
-# CBProtector
-CBProtector
+# CyberGate Protector
+
+## MUST READ
+DO NOT ABUSE
+--
